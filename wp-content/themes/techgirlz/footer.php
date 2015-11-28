@@ -11,16 +11,13 @@
 
 ?>
 
-	</div><!-- #content -->
+</div><!-- #main -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'techgirlz' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'techgirlz' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'techgirlz' ), 'techgirlz', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+	<footer id="colophon" class="footer">
+		&copy; 2015 <a href="http://techgirlz.org/">TechGirlz</a>
 		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+	</footer><!-- #colophon .site-footer -->
+</div><!-- #page .hfeed .site -->
 
 <?php wp_footer(); ?>
 

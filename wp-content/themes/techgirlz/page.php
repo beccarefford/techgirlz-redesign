@@ -1,37 +1,19 @@
-<?php
-/**
- * The template for displaying all pages.
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package techgirlz
- */
+<?php get_header(); ?>
 
-get_header(); ?>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis sapien,
+commodo in nulla id, porttitor condimentum quam. Suspendisse tincidunt sem non
+dui vulputate mollis. Nullam rhoncus augue in maximus dapibus. Nam aliquet
+semper urna, vitae vehicula mauris finibus vestibulum. Sed eleifend scelerisque
+eleifend. Mauris semper semper ipsum, a placerat sapien mattis a. Nullam
+ultricies, justo at mollis ultrices, justo lectus aliquam lectus, sed hendrerit
+metus nisl at est. Suspendisse at ligula quis enim dapibus fermentum. Donec
+pulvinar scelerisque lectus, vitae maximus lectus pellentesque quis.
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+Fusce et lacus orci. Integer ornare auctor eros eget bibendum. Duis molestie
+mauris eu congue iaculis. Maecenas fringilla ipsum tellus, vitae interdum est
+congue in. In luctus ultricies felis, vitae sodales sem rutrum eget. Donec vel
+velit placerat orci ullamcorper venenatis. Suspendisse nec ultricies felis.
+Nulla est ipsum, efficitur ut sem ac, volutpat varius sem. Suspendisse ligula
+massa, vehicula sed consequat a, vehicula vel est.
 
-			<?php while ( have_posts() ) : the_post(); ?>
-
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-
-				<?php
-					// If comments are open or we have at least one comment, load up the comment template.
-					if ( comments_open() || get_comments_number() ) :
-						comments_template();
-					endif;
-				?>
-
-			<?php endwhile; // End of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

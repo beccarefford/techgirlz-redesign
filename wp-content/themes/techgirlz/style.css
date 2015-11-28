@@ -1,24 +1,13 @@
 /*
-Theme Name: techgirlz
-Theme URI: http://underscores.me/
-Author: Underscores.me
+Theme Name: TechGirlz
+Theme URI: http://techgirlz.org/
+Author: Rebecca Refford
 Author URI: http://underscores.me/
 Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: techgirlz
-Tags:
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-techgirlz is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
-*/
 
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -62,7 +51,52 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+footer {
+	width: 100%;
+	position: absolute;
+	padding: 50px 0;
+	margin: 0 auto;
+	text-align: center;
+	background: #25282a;
+	color: rgba(255,255,255,0.5);
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 18px;
+	-webkit-box-shadow: inset 0 1px 0 rgba(67, 75, 92, 0.5), inset 0 3px 12px rgba(67, 75, 92, 0.2);
+	-moz-box-shadow: inset 0 1px 0 rgba(67, 75, 92, 0.5), inset 0 3px 12px rgba(67, 75, 92, 0.2);
+	box-shadow: inset 0 1px 0 rgba(67, 75, 92, 0.5), inset 0 3px 12px rgba(67, 75, 92, 0.2);
+}
+
+.wf-active .footer {
+	font-weight: 300;
+	font-size: 25px;
+}
+
+.footer a {
+	color: rgba(255,255,255,0.6);
+	text-decoration: none;
+}
+
+.footer a:hover {
+	color: rgba(255,255,255,0.9);
+}
+
+/* Transitions for Footer */
+
+.footer a,
+.footer a:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+}
+
 header,
 main,
 menu,
@@ -171,7 +205,24 @@ samp {
 	font-size: 1em;
 }
 
-button,
+button {
+	position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 13px;
+	font-family: "Open Sans";
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #F9976D;
+  border: 0;
+  border-bottom: 2px solid #D97044;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #D97044;
+  box-shadow: inset 0 -2px #D97044;
+}
 input,
 optgroup,
 select,
@@ -423,25 +474,29 @@ button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
-	border-color: #ccc #ccc #bbb;
-	border-radius: 3px;
-	background: #e6e6e6;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, .8);
-	font-size: 12px;
-	font-size: 0.75rem;
-	line-height: 1;
-	padding: .6em 1em .4em;
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+	position: relative;
+  vertical-align: top;
+  width: 100%;
+  height: 60px;
+  padding: 0;
+  font-size: 13px;
+	font-family: "Open Sans";
+	text-transform: uppercase;
+	color: rgba(255,255,255,0.6);
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(255,255,255,0.5);
+  background: #E06286;
+  border: 0;
+  border-bottom: 2px solid #C43D64;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #C43D64;
+  box-shadow: inset 0 -2px #C43D64;
 }
 
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: #ccc #bbb #aaa;
-	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
 }
 
 button:focus,
@@ -522,26 +577,54 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
 	width: 100%;
+	position: absolute;
+	display:block;
+	padding: 20px 30px;
+	margin: 0 auto;
+	font-family: "Open Sans";
+	text-align: center;
+	background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.50);
+	color: rgba(255,255,255,0.5);
+	text-transform: uppercase;
+	line-height: 1;
+	font-size: 13px;
+	z-index:999;
+}
+
+.header-logo {
+	float:left;
+	position:relative;
+	height: 80px;
+	width: 240px;
+	padding: 0px 0;
+}
+
+@media (max-width: 720px) {
+	.header-logo {width:full;}
+}
+
+@media (max-width: 600px) {
+.header-logo {display:none;}
 }
 
 .main-navigation ul {
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+	padding: 25px 0;
 }
 
 .main-navigation li {
-	float: left;
+	padding: 10px;
+	float: right;
 	position: relative;
 }
 
 .main-navigation a {
-	display: block;
+	color: #E06286;
+	font-weight:bold;
 	text-decoration: none;
 }
 
@@ -567,24 +650,64 @@ a:active {
 
 }
 
-.main-navigation li:hover > a,
+.main-navigation li:hover > a {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	color: #C43D64;
+}
+
 .main-navigation li.focus > a {
 }
 
-.main-navigation ul ul :hover > a,
+.main-navigation ul ul :hover > a {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	color: rgba(255,255,255,0.9);
+}
+
 .main-navigation ul ul .focus > a {
 }
 
-.main-navigation ul ul a:hover,
+.main-navigation ul ul a:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	color: rgba(255,255,255,0.9);
+}
+
 .main-navigation ul ul a.focus {
 }
 
-.main-navigation ul li:hover > ul,
+.main-navigation ul li:hover > ul {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	color: rgba(255,255,255,0.9);
+}
+
 .main-navigation ul li.focus > ul {
 	left: auto;
 }
 
-.main-navigation ul ul li:hover > ul,
+.main-navigation ul ul li:hover > ul {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	color: rgba(255,255,255,0.9);
+}
+
 .main-navigation ul ul li.focus > ul {
 	left: 100%;
 }
@@ -738,6 +861,11 @@ a:active {
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/
+.site-content {
+	display:block;
+	padding: 150px 30px;
+}
+
 .sticky {
 	display: block;
 }

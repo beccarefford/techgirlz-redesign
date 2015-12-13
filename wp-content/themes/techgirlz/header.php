@@ -27,7 +27,7 @@
 	<header id="masthead" class="site-header" role="banner">
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<a href="http://techgirlz.org/"><img class="header-logo" src="/wp-content/uploads/2015/11/sitelogo_small.png" alt="TechGirlz" /></a>
+			<a href="http://techgirlz.org/"><img class="header-logo" src="/wp-content/uploads/2015/12/logo-techgirlz@2x.png" alt="TechGirlz" /></a>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'techgirlz' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 		</nav><!-- #site-navigation -->

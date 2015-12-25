@@ -124,19 +124,12 @@ function techgirlz_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'techgirlz_scripts' );
 
+add_action( 'wp_enqueue_scripts', 'techgirlz_scripts' );
 function prefix_enqueue_awesome() {
 	wp_enqueue_style( 'prefix-font-awesome', '/wp-content/themes/font-awesome-4.5.0/css/font-awesome.min.css', array(), '4.0.3' );
 }
-
 add_action( 'wp_enqueue_scripts', 'prefix_enqueue_awesome' );
-
-function prefix_enqueue_bootstrap() {
-	wp_enqueue_style( 'prefix-bootstrap', '/wp-content/themes/bootstrap-3.3.6-dist/css/bootstrap-theme.min.css', array(), '4.0.3' );
-}
-
-add_action( 'wp_enqueue_scripts', 'prefix_enqueue_bootstrap' );
 
 /**
  * Implement the Custom Header feature.

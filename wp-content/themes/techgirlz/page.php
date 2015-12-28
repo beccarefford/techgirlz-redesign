@@ -1,19 +1,21 @@
 <?php get_header(); ?>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer felis sapien,
-commodo in nulla id, porttitor condimentum quam. Suspendisse tincidunt sem non
-dui vulputate mollis. Nullam rhoncus augue in maximus dapibus. Nam aliquet
-semper urna, vitae vehicula mauris finibus vestibulum. Sed eleifend scelerisque
-eleifend. Mauris semper semper ipsum, a placerat sapien mattis a. Nullam
-ultricies, justo at mollis ultrices, justo lectus aliquam lectus, sed hendrerit
-metus nisl at est. Suspendisse at ligula quis enim dapibus fermentum. Donec
-pulvinar scelerisque lectus, vitae maximus lectus pellentesque quis.
+  <?php while ( have_posts() ) : the_post(); ?>
 
-Fusce et lacus orci. Integer ornare auctor eros eget bibendum. Duis molestie
-mauris eu congue iaculis. Maecenas fringilla ipsum tellus, vitae interdum est
-congue in. In luctus ultricies felis, vitae sodales sem rutrum eget. Donec vel
-velit placerat orci ullamcorper venenatis. Suspendisse nec ultricies felis.
-Nulla est ipsum, efficitur ut sem ac, volutpat varius sem. Suspendisse ligula
-massa, vehicula sed consequat a, vehicula vel est.
+    <div class="page-landing">
+      <div class="bg" style="background-image:
+      url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
+      </div>
+      <h1><?php the_title(); ?></h1>
+    </div>
+
+    <div class="page-content" id="page-content">
+        <p><?php echo the_content(); ?></p>
+    </div>
+
+  <?php endwhile; // End of the loop. ?>
+
+  </main><!-- #main -->
+</div><!-- #primary -->
 
 <?php get_footer(); ?>

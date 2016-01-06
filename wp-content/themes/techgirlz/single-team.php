@@ -7,11 +7,9 @@
       <div class="bg" style="background-image:
       url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
       </div>
-
       <div class="staff-circle">
         <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
       </div>
-
     </div>
   </div>
 
@@ -54,8 +52,6 @@
       <div class="col-md-8">
         <p><?php echo the_content(); ?></p>
       </div>
-    </div>
-
     </div>
   </div>
 

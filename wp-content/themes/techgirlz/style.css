@@ -463,6 +463,44 @@ Pages
 	z-index: -1;
 }
 
+.staff-circle-small img {
+	width: 110px;
+	height: 110px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-ms-border-radius: 150px;
+	-o-border-radius: 150px;
+	border-radius: 150%;
+	border: 4px solid #e06287;
+	margin: 45px 0;
+	z-index: -1;
+}
+
+#staff-name h3 {
+	font-family: Open Sans;
+	font-size: 22px;
+	font-weight: bold;
+	color: #D7F069;
+	text-transform: uppercase;
+	padding: 0px 10px 0px 10px;
+}
+
+#job-title {
+	font-family: Lora;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0px 10px 0px 10px;
+	color: #4AA983;
+}
+
+#job-title-staff {
+	font-family: Lora;
+	font-size: 18px;
+	font-style: italic;
+	margin: 0px 10px 9px 10px;
+	color: #4AA983;
+}
+
 .sticky {
 	display: block;
 }

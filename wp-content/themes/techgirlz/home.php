@@ -18,7 +18,7 @@
 </a>
 
 <div class="row">
-  <a href="http://techgirlz.org">
+  <a href="/volunteer">
     <div class="col-md-6 nopadding">
         <div class="columnDonateTime" onmouseover="this.style.background='#B6D242';" onmouseout="this.style.background='#D7F069';">
           <h1>Donate Time &nbsp; <i class="fa fa-clock-o"></i></h1>
@@ -26,7 +26,7 @@
     </div>
   </a>
 
-  <a href="http://techgirlz.org">
+  <a href="/donate">
     <div class="col-md-6 nopadding">
       <div class="columnDonateMoney" onmouseover="this.style.background='#2E936A';" onmouseout="this.style.background='#4AA983';">
         <h1>Donate Money &nbsp; <i class="fa fa-money"></i></h1>

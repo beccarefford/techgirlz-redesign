@@ -44,4 +44,82 @@ function register_team_post_type()
 }
 add_action('init', 'register_team_post_type');
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_staff-info',
+		'title' => 'Staff Info',
+		'fields' => array (
+			array (
+				'key' => 'field_568d57246233b',
+				'label' => 'Job Title',
+				'name' => 'job_title',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_568d573f6233c',
+				'label' => 'Twitter',
+				'name' => 'twitter',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_568d57696233d',
+				'label' => 'Facebook',
+				'name' => 'facebook',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+			array (
+				'key' => 'field_568d57716233e',
+				'label' => 'LinkedIn',
+				'name' => 'linkedin',
+				'type' => 'text',
+				'default_value' => '',
+				'placeholder' => '',
+				'prepend' => '',
+				'append' => '',
+				'formatting' => 'html',
+				'maxlength' => '',
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'team',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+				0 => 'discussion',
+				1 => 'send-trackbacks',
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
 ?>

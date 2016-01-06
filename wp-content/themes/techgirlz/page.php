@@ -11,6 +11,16 @@
       </div>
     </div>
 
+      <div class="row">
+        <div class="col-md-6 nopadding">
+            <div class="columnPageDeco"></div>
+        </div>
+
+        <div class="col-md-6 nopadding">
+          <div class="columnPageDeco2"></div>
+        </div>
+      </div>
+
     <div class="page-content" id="page-content">
         <p><?php echo the_content(); ?></p>
     </div>

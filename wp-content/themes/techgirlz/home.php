@@ -1,11 +1,21 @@
 <?php get_header(); ?>
 
+<a href="/techshopz-in-a-box">
 <div class="landing">
     <div class="bg" style="background-image:
     url('/wp-content/uploads/2015/12/3038671-poster-p-2-can-littlebits-save-radioshack-111.jpg')">
     </div>
+  <div class="row">
+    <div class="col-md-6">
       <h1>We provide free lesson plans to teach girls tech.</h1>
+    </div>
+
+    <div class="col-md-6">
+      <i class="fa fa-arrow-circle-right fa-3x"></i>
+    </div>
+  </div>
 </div>
+</a>
 
 <div class="row">
   <a href="http://techgirlz.org">

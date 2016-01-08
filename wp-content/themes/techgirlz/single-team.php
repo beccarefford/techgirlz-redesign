@@ -2,11 +2,9 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 
-  <div class="staff-page-landing">
-    <div class="topArea">
-      <div class="bg" style="background-image:
+    <div class="staff-page-landing" style="background-image:
       url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
-      </div>
+    <div class="topArea">
       <div class="staff-circle">
         <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
       </div>

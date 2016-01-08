@@ -6,8 +6,6 @@ Template Name: Staff
 
 <?php get_header(); ?>
 
-<?php the_content(); ?>
-
 <div class="page-landing">
   <div class="topArea">
     <div class="bg" style="background-image:
@@ -28,6 +26,10 @@ Template Name: Staff
 </div>
 
 <div class="page-content" id="page-content">
+
+  <?php if (have_posts()) : ?>
+  <?php while (have_posts()) : the_post(); ?>
+    <?php echo the_content(); ?>
 
 <?php
     $loop_staff = new WP_Query(array(

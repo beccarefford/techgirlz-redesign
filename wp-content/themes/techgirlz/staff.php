@@ -6,6 +6,12 @@ Template Name: Staff
 
 <?php get_header(); ?>
 
+<?php
+/*--------------------------------------------------------------
+About Section
+--------------------------------------------------------------*/
+?>
+
 <div class="page-landing" style="background-image:
 url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
   <div class="topArea">
@@ -23,7 +29,44 @@ url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
   </div>
 </div>
 
+<div class="staff-page-content" id="page-content">
+  <div class="row">
+    <div class="col-md-6">
+      <iframe width="560" height="390" src="https://www.youtube.com/embed/So4WB4IbE-s"
+      frameborder="0" alt="TechGirlz Mission Video" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+      <h2>Our Mission</h2>
+      <p>
+        TechGirlz is a 501(c)3 nonprofit dedicated to reducing and, we hope,
+        eliminating - the gender gap in technology occupations. We develop fun
+        and educational hands-on workshops, called <a href="/techshopz-in-a-box">TechShopz</a>,
+        and an annual <a href="/summer-camp-2016">Entrepreneur Summer Camp.</a> These efforts aim to get
+        middle-school age girls interested in different kinds of technology and
+        demonstrate the varied options of careers available. We enable them to
+        interact with professionals who have carved out successful careers in
+        technology fields, and empower them to be future technology leaders.</a>
+      </p>
+
+      <center>
+        <a href="http://twitter.com/techgirlzorg"><i class="fa fa-twitter fa-3x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-3x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a href="#"><i class="fa fa-envelope fa-3x"></i></a>
+      </center>
+    </div>
+  </div>
+</div>
+
+<?php
+/*--------------------------------------------------------------
+Team Section
+--------------------------------------------------------------*/
+?>
+
 <div class="page-content" id="page-content">
+
+  <center><h1>Our Team</h1></center>
+  <hr />
 
 <?php
     $loop_staff = new WP_Query(array(
@@ -89,6 +132,34 @@ $current_post = $loop_staff->current_post + 1;
       $current_post++;
       endwhile; ?>
 
+</div>
+
+<?php
+/*--------------------------------------------------------------
+Sponsors & Partners Section
+--------------------------------------------------------------*/
+?>
+
+<div class="page-content" id="page-content">
+<center><h1>Sponsors & Partners</h1></center>
+<hr />
+</div>
+
+<div id="scroll-container">
+  <div class="scroll">
+    <img class="first" src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" />
+    <img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" />
+    <img src="/wp-content/uploads/2016/01/800px-Comptia-logo.svg_.png" alt="Comptia" />
+    <img src="/wp-content/uploads/2016/01/2012logo_pact.png" alt="PACT" />
+    <img src="/wp-content/uploads/2016/01/pink-logo-f9a26fcc82c561f925403822c5135a28.png" alt="Girl Develop It" />
+    <img src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" />
+    <img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" />
+    <img src="/wp-content/uploads/2016/01/800px-Comptia-logo.svg_.png" alt="Comptia" />
+    <img src="/wp-content/uploads/2016/01/2012logo_pact.png" alt="PACT" />
+    <img src="/wp-content/uploads/2016/01/pink-logo-f9a26fcc82c561f925403822c5135a28.png" alt="Girl Develop It" />
+    <img src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" />
+    <img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" />
+  </div>
 </div>
 
 <?php get_footer(); ?>

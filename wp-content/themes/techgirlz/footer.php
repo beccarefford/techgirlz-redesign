@@ -21,7 +21,8 @@
 			<i class="fa fa-money fa-3x"></i>
 
 		<footer id="copyfooter">
-			&copy; 2015 <a href="http://techgirlz.org/">TechGirlz</a>
+			&copy; 2016 <a href="http://techgirlz.org/">TechGirlz</a> &bull; Empowering girls
+			to be future technology leaders
 		</footer>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon .site-footer -->

@@ -159,6 +159,11 @@ Pages
 	padding: 60px 120px;
 }
 
+.staff-page-content {
+	display:block;
+	padding: 60px 120px;
+}
+
 .page-landing h1 {
 	font-size: 40px;
 	padding: 100px 0;
@@ -250,6 +255,13 @@ Pages
 	padding: 0px 10px 10px 10px;
 }
 
+#page-content em {
+	font-size: 18px;
+	font-family: Lora;
+	color: #e06287;
+	font-style: italic;
+}
+
 #page-content a {
 	font-size: 18px;
 	font-family: Lora;
@@ -338,7 +350,6 @@ Pages
 	border: 9px solid #e06287;
 	margin: 55px 40%;
 	z-index: -1;
-
 }
 
 .staff-circle-small img {
@@ -352,6 +363,97 @@ Pages
 	border: 4px solid #e06287;
 	margin: 45px 0;
 	z-index: -1;
+}
+
+.anywhere-circle img {
+	width: 280px;
+	height: 280px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	-ms-border-radius: 150px;
+	-o-border-radius: 150px;
+	border-radius: 150%;
+	border: 9px solid #e06287;
+	margin: 10px 10px;
+	z-index: -1;
+}
+
+#scroll-container {
+ width: 100%;
+ height: 150px;
+ overflow: hidden;
+ margin: -40px auto;
+ background: #ffffff;
+ display:block;
+}
+
+.scroll {
+ height: 233px;
+ width: 3550px;
+}
+
+.scroll img {
+	height: 80px;
+	margin: 0 30px;
+	padding: 10px 10px 10px 10px;
+}
+
+.first {
+ -webkit-animation: bannermove 50s linear infinite;
+    -moz-animation: bannermove 50s linear infinite;
+     -ms-animation: bannermove 50s linear infinite;
+      -o-animation: bannermove 50s linear infinite;
+         animation: bannermove 50s linear infinite;
+}
+
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+
+}
+
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
+}
+
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+
 }
 
 #staff-name h3 {
@@ -950,6 +1052,14 @@ a:active {
 /*--------------------------------------------------------------
 # Menus
 --------------------------------------------------------------*/
+.header-logo {
+	float:left;
+	position:relative;
+	height: 50px;
+	width: 150px;
+	padding: 0px 0;
+}
+
 .main-navigation {
 	padding: 20px 60px;
 	width: 100%;
@@ -992,14 +1102,6 @@ a:active {
 transition: all .3s ease-out;
 text-decoration: none;
 color: #e06287;
-}
-
-.header-logo {
-	float:left;
-	position:relative;
-	height: 50px;
-	width: 150px;
-	padding: 0px 0;
 }
 
 .main-navigation ul {

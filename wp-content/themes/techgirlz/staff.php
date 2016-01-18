@@ -38,8 +38,8 @@ url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
     <div class="col-md-6">
       <h2>Our Mission</h2>
       <p>
-        TechGirlz is a 501(c)3 nonprofit dedicated to reducing and, we hope,
-        eliminating - the gender gap in technology occupations. We develop fun
+        TechGirlz is a 501(c)3 nonprofit dedicated to reducing the gender gap
+        in technology occupations. We develop fun
         and educational hands-on workshops, called <a href="/techshopz-in-a-box">TechShopz</a>,
         and an annual <a href="/summer-camp-2016">Entrepreneur Summer Camp.</a> These efforts aim to get
         middle-school age girls interested in different kinds of technology and
@@ -48,11 +48,13 @@ url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
         technology fields, and empower them to be future technology leaders.</a>
       </p>
 
-      <center>
-        <a href="http://twitter.com/techgirlzorg"><i class="fa fa-twitter fa-3x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-3x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-        <a href="#"><i class="fa fa-envelope fa-3x"></i></a>
-      </center>
+      <p>
+        <center>
+          <a href="http://twitter.com/techgirlzorg"><i class="fa fa-twitter fa-3x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <a href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-3x"></i></a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <a href="#"><i class="fa fa-envelope fa-3x"></i></a>
+        </center>
+      </p>
     </div>
   </div>
 </div>
@@ -145,7 +147,7 @@ Sponsors & Partners Section
 <hr />
 </div>
 
-<div id="scroll-container">
+<div id="scroll-container-tib">
   <div class="scroll">
     <a href="http://chariotsolutions.com"><img class="first" src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" /></a>
     <a href="http://vitalyst.com"><img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" /></a>
@@ -161,5 +163,7 @@ Sponsors & Partners Section
     <a href="http://vitalyst.com"><img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" /></a>
   </div>
 </div>
+
+<div class="spacing">&nbsp;</div>
 
 <?php get_footer(); ?>

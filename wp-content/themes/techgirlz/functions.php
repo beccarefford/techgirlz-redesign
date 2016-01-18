@@ -175,3 +175,17 @@ function wpse_custom_excerpts($content, $limit, $permalink) {
     return wp_trim_words($content, $limit, '<a href="'. esc_url( $permalink ) .
           '">' . '&nbsp;&hellip;' . __( 'Read more &nbsp;&raquo;', 'wpse' ) . '</a>');
 }
+
+
+function myButton($atts, $content = ''){
+
+    extract(shortcode_atts(array(
+        'text' => '',
+        'link' => ''
+    ), $atts));
+
+    $html = '<a href="' . $link . '"><div class="myButton">' . $text . '</div></a>';
+    return $html;
+}
+
+add_shortcode('mybutton', 'myButton');

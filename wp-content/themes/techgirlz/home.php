@@ -18,7 +18,7 @@
 <div class="row">
   <a href="/volunteer">
     <div class="col-md-6 nopadding">
-        <div class="columnDonateTime" onmouseover="this.style.background='#B6D242';" onmouseout="this.style.background='#D7F069';">
+        <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
           <h1>Donate Time &nbsp; <i class="fa fa-clock-o"></i></h1>
         </div>
     </div>
@@ -26,7 +26,7 @@
 
   <a href="/donate">
     <div class="col-md-6 nopadding">
-      <div class="columnDonateMoney" onmouseover="this.style.background='#2E936A';" onmouseout="this.style.background='#4AA983';">
+      <div class="columnDonateMoney" onmouseover="this.style.background='#D97044';" onmouseout="this.style.background='#F9976D';">
         <h1>Donate Money &nbsp; <i class="fa fa-money"></i></h1>
       </div>
     </div>
@@ -37,7 +37,7 @@
   <div class="row">
     <div class="col-md-4">
       <h2>What We Do</h2>
-        <p>TechGirlz empowers adolescent girls to explore technology through
+        <p>TechGirlz empowers 13-15 year old girls to explore technology through
           free, hands-on workshops. Placeholding.</p>
     </div>
 

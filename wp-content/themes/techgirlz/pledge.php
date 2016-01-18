@@ -1,14 +1,19 @@
 <?php
 /*
-Template Name: TechShopz In A Box
+Template Name: Pledge Page
 */
 ?>
 
 <?php get_header(); ?>
 
-<div class="page-landing">
-    <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png">
-</div>
+<?php while ( have_posts() ) : the_post(); ?>
+
+  <div class="page-landing" style="background-image:
+  url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
+    <div class="topArea">
+      <h1><?php the_title(); ?></h1>
+    </div>
+  </div>
 
 <div class="row">
   <div class="col-md-6 nopadding">
@@ -28,20 +33,54 @@ Template Name: TechShopz In A Box
   </div>
 
   <div class="col-md-6">
-    <h2>Background</h2>
-     <p>5 years ago, TechGirlz started with a singular vision: to change the way middle school girls think about technology through free, hands-on workshops. The workshops caught on quickly - within a year, our events were getting booked solid, with waitlists reaching two, sometimes three, times the amount of seats available. We needed more instructors willing to teach our girls.</p>
+    <h2>We have the materials, You have the expertise</h2>
+     <p>
+       5 years ago, TechGirlz started with a singular vision: to change the
+       way middle school girls think about technology through hands-on
+       workshops. The workshops caught on quickly - within a year, our events
+       were getting booked solid, with waitlists reaching two, sometimes three,
+       times the amount of seats available.
+     </p>
 
-<h2>TechShopz In A Box™ Are Born</h2>
-<p>So we decided to open source our lesson plans, documents, and procedures, calling these free materials TechShopz in a Box™. This allowed anyone, anywhere to run our workshops. As a result of this effort, the number of girls we've reached has more than tripled - and with your help, we can make that number grow.
+     <h2>Take the Pledge</h2>
+     <p>
+       So we decided to open source our lesson plans. We call them
+       <a href="http://www.techgirlz.org/techshopz-in-a-box/">TechShopz in a Box</a>,
+       and they allow anyone to run a TechGirlz workshop using our
+       materials. As a result, our numbers have more than doubled. One TechShopz
+       in a Box™ teaches 15 girls, so take the pledge to run one this year.
      </p>
     </div>
   </div>
 
 <div class="spacing">&nbsp;</div>
-<hr />
-<div class="spacing">&nbsp;</div>
-<center><h1>TechShopz in a Box Include:</h1></center>
-<div class="spacing">&nbsp;</div>
+
+  <center>
+    <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784">
+    <div class="btn">
+    <p>
+      I Pledge to Teach 15 Girls
+    </p>
+  </div>
+  </a>
+  </center>
+
+  <div class="spacing">&nbsp;</div>
+  <hr />
+  <div class="spacing">&nbsp;</div>
+
+  <div class="row">
+    <center>
+      <img alt="TechGirlz: Pledge to Teach 15" src="/wp-content/uploads/2016/01/Screen-Shot-2015-12-29-at-3.02.37-PM1.png"></center>
+    </center>
+  </div>
+
+  <div class="spacing">&nbsp;</div>
+  <hr />
+  <div class="spacing">&nbsp;</div>
+
+  <center><h1>TechShopz in a Box Include:</h1></center>
+  <div class="spacing">&nbsp;</div>
 
 <div class="row">
 
@@ -73,6 +112,7 @@ Template Name: TechShopz In A Box
 <div class="spacing">&nbsp;</div>
 <hr />
 <div class="spacing">&nbsp;</div>
+
 
 <div class="row">
 <div class="col-md-6">
@@ -136,23 +176,10 @@ Template Name: TechShopz In A Box
 </div>
 
 <div class="spacing">&nbsp;</div>
-
-<center>
-  <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784">
-  <div class="btn">
-  <p>
-    Ready to start? Sign up today!
-  </p>
-</div>
-</a>
-</center>
-
-<div class="spacing">&nbsp;</div>
-
 <hr />
-
 <div class="spacing">&nbsp;</div>
-<center><h1>TechShopz In a Box™ Users</h1></center>
+
+<center><h1>See Who's Pledged</h1></center>
 
 </div>
 
@@ -179,5 +206,7 @@ Template Name: TechShopz In A Box
 </div>
 
 <div class="spacing">&nbsp;</div>
+
+<?php endwhile; ?>
 
 <?php get_footer(); ?>

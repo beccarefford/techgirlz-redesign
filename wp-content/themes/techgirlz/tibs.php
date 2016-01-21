@@ -76,7 +76,11 @@ Template Name: TechShopz In A Box
 
 <div class="row">
 <div class="col-md-6">
-  <center><h1>Topics Like:</h1></center>
+  <center><h1>Topics</h1></center>
+  <p>
+    We have tons of workshop plans covering <a href="/techshopzinfo">a wide variety of topics</a>. Here
+    are a few of our most popular:
+  </p>
   <center>
 
   <a href="/techshop-topics">

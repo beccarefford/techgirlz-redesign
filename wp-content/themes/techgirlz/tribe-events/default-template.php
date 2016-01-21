@@ -9,7 +9,24 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header();
 ?>
 
-<div class="event-page-content" id="page-content">
+<div class="page-landing" style="background-image:
+url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
+	<div class="topArea">
+		<h1>Events</h1>
+	</div>
+</div>
+
+	<div class="row">
+		<div class="col-md-6 nopadding">
+				<div class="columnPageDeco"></div>
+		</div>
+
+		<div class="col-md-6 nopadding">
+			<div class="columnPageDeco2"></div>
+		</div>
+	</div>
+
+<div class="page-content" id="page-content">
 
 <div id="tribe-events-pg-template">
 	<?php tribe_events_before_html(); ?>
@@ -37,6 +54,7 @@ get_header();
   </div>
 </div>
 
+</div>
 
 </div> <!-- #tribe-events-pg-template -->
 <?php

@@ -2,7 +2,7 @@
 
 <a href="/techshopz-in-a-box">
   <div class="home-landing" style="background-image:
-    url('/wp-content/uploads/2015/12/3038671-poster-p-2-can-littlebits-save-radioshack-111.jpg')">
+    url('/wp-content/uploads/2016/01/3038671-poster-p-2-can-littlebits-save-radioshack-111.jpg')">
     <div class="row">
       <div class="col-md-6">
         <h1>We provide free lesson plans to teach girls tech.</h1>

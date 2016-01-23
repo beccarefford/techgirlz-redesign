@@ -32,6 +32,9 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 <div class="spacing">&nbsp;</div>
 <hr />
 <div class="spacing">&nbsp;</div>
+</div>
+
+<div class="page-content" id="page-content">
 
 		<?php
 		$wp_query = new WP_Query(array(
@@ -74,11 +77,7 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 		$current_post++;
 		endwhile; ?>
 
-
-
 		<?php wp_reset_postdata(); ?>
 	</div>
-
-</div>
 
 <?php get_footer(); ?>

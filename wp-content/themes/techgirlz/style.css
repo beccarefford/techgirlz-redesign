@@ -1305,18 +1305,19 @@ a:active {
 	text-transform: uppercase;
 	line-height: 1;
 	font-size: 13px;
+	font-weight: bold;
 	z-index:999;
 }
 
 .main-navigation a {
 	color: #e06287;
 	text-decoration: none;
-	font-weight:bold;
+	font-weight: bold;
 	font-family: 'Open Sans';
 	font-size: 13px;
 	text-transform: uppercase;
 	height: 90px;
-	padding:20px 0 20px 0;
+	padding: 20px 0 20px 0;
 }
 
 .main-navigation a:hover {

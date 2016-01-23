@@ -175,6 +175,14 @@ Pages
 	margin: 15px 0 15px 0;
 }
 
+.pagination-forward {
+	text-align: right;
+}
+
+.pagination-backward {
+	text align: left;
+}
+
 .staff-page-content {
 	display:block;
 	padding: 60px 120px;

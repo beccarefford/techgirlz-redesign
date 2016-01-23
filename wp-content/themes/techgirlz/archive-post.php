@@ -24,7 +24,7 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			<div class="blog-content" id="page-content">
 
 			<?php
-	    $loop_posts = new WP_Query(array(
+	    $wp_query = new WP_Query(array(
 	    'post_type' => 'post',
 			'order' => 'DESC',
 	    'orderby' => 'date',
@@ -33,8 +33,8 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 
 			<?php	$current_post=1;
 
-			while ($loop_posts->have_posts()) : $loop_posts->the_post();
-			$current_post = $loop_posts->current_post + 1;
+			while ($wp_query->have_posts()) : $wp_query->the_post();
+			$current_post = $wp_query->current_post + 1;
 			?>
 
 			<div class="row">
@@ -52,10 +52,17 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 		</div>
 		</div>
 
+		<hr />
+
 		<?php endwhile; ?>
 
+		<div class="pagination-forward">
 		<?php next_posts_link(); ?>
+		</div>
+
+		<div class="pagination-backward">
 		<?php previous_posts_link(); ?>
+		</div>
 
 		</div>
 

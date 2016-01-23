@@ -38,7 +38,7 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			'post_type' => 'post',
 			'order' => 'DESC',
 			'orderby' => 'date',
-			'posts_per_page' => 3
+			'posts_per_page' => 6
 		));
 		?>
 

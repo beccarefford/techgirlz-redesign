@@ -26,9 +26,8 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			<?php
 	    $loop_posts = new WP_Query(array(
 	    'post_type' => 'post',
-	    'orderby' => 'menu_order',
-	    'order' => 'DESC',
-			'post_per_page' => -1
+			'order' => 'ASC',
+	    'orderby' => 'date',
 	    ));
 	    ?>
 
@@ -53,6 +52,9 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			</div>
 		</div>
 		<?php endwhile; ?>
+
+<div class="alignright"><?php next_posts_link('Further Entries &raquo;') ?></div>
+<div class="alignleft"><?php previous_posts_link('&laquo; Previous Entries ') ?></div>
 
 </div>
 

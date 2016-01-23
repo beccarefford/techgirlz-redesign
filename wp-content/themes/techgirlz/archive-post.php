@@ -11,7 +11,7 @@ Template Name: Blog
 				<div class="page-landing">
 					<div class="topArea">
 						<div class="bg" style="background-image:
-						url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
+						url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o1.jpg')">
 						</div>
 						<h1>TechGirlz Talks</h1>
 					</div>

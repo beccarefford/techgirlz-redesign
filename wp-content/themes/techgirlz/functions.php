@@ -172,7 +172,7 @@ require get_template_directory() . '/inc/jetpack.php';
 
 
 function wpse_custom_excerpts($content, $limit, $permalink) {
-    return wp_trim_words($content, $limit, '&nbsp;&hellip;' );
+    return wp_trim_words($content, $limit, '&hellip;' );
 }
 
 

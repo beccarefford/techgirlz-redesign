@@ -9,10 +9,10 @@ Template Name: Blog
 <?php get_header(); ?>
 
 				<div class="page-landing">
-					<div class="topArea">
-						<div class="bg" style="background-image:
+					<div class="bg" style="background-image:
 						url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o1.jpg')">
-						</div>
+					</div>
+					<div class="topArea">
 						<h1>TechGirlz Talks</h1>
 					</div>
 				</div>

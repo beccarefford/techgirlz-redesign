@@ -23,11 +23,14 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 
 			<div class="blog-content" id="page-content">
 
+			<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
+
 			<?php
 	    $wp_query = new WP_Query(array(
-	    'post_type' => 'post',
-			'order' => 'DESC',
-	    'orderby' => 'date',
+		    'post_type' => 'post',
+				'order' => 'DESC',
+		    'orderby' => 'date',
+				'paged' => $paged
 	    ));
 	    ?>
 

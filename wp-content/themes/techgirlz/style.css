@@ -159,6 +159,22 @@ Pages
 	padding: 60px 120px;
 }
 
+.blog-content {
+	display: block;
+	margin:50px 340px 50px 340px;
+}
+
+.blog-content .row {
+	display: block;
+	padding: 50px;
+}
+
+.blog-content .row .myButton {
+	float: right;
+	height: 60px;
+	margin: 15px 0 15px 0;
+}
+
 .staff-page-content {
 	display:block;
 	padding: 60px 120px;
@@ -229,6 +245,56 @@ Pages
 	background-color: #F9976D;
 	margin: none;
 	padding: 5px 0;
+}
+
+.columnBlogDeco {
+	background-color: #F9976D;
+	margin: none;
+	height: 60px;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding: 18px 0 30px 0;
+	color: rgba(255,255,255,0.8)
+}
+
+.columnBlogDeco a {
+	color: rgba(255,255,255,0.7);
+	text-decoration: none;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding: 0 10px 0 10px;
+}
+
+.columnBlogDeco a:hover {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+}
+
+.columnBlogDeco a:visited {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+}
+
+.columnBlogDeco a:active {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+}
+
+/* Transitions for Footer */
+
+.columnBlogDeco a,
+.columnBlogDeco a:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	text-decoration: none;
 }
 
 #page-content h1 {

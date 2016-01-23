@@ -1,18 +1,12 @@
 <?php
-/**
- * The template for displaying archive pages.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package techgirlz
- */
 
-get_header(); ?>
+/*
+Template Name: Blog
+*/
 
-		<?php if ( have_posts() ) : ?>
-			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
+?>
 
+<?php get_header(); ?>
 
 				<div class="page-landing">
 					<div class="topArea">
@@ -23,26 +17,44 @@ get_header(); ?>
 					</div>
 				</div>
 
-				<div class="page-content" id="page-content">
-						<p><?php echo the_content(); ?></p>
+				<div class="columnBlogDeco">
+					<a href="/tag/press">Press</a> &bull;
+					<a href="/tag/infographic">Infographics</a> &bull;
+					<a href="/tag/video">Videos</a>
 				</div>
 
+			<div class="blog-content" id="page-content">
 
+			<?php
+	    $loop_posts = new WP_Query(array(
+	    'post_type' => 'post',
+	    'orderby' => 'menu_order',
+	    'order' => 'DESC'
+	    ));
+	    ?>
 
+			<?php	$current_post=1;
 
+			while ($loop_posts->have_posts()) : $loop_posts->the_post();
+			$current_post = $loop_posts->current_post + 1;
+			?>
 
-			<?php endwhile; ?>
+			<div class="row">
+			<div class="col-md-12">
 
-			<?php the_posts_navigation(); ?>
+			<a href="<?php the_permalink(); ?>"><h2><?php echo the_title(); ?></h2></a>
+			<?php
+			$content = get_the_content();
+			$permalink = get_permalink(); ?>
+			<p><?php echo wpse_custom_excerpts($content, 100, $permalink); ?></p>
+			<a href="<?php the_permalink(); ?>"><div class="myButton">Read More</div></a>
 
-		<?php else : ?>
+		<?php $current_post++; ?>
 
-			<?php get_template_part( 'template-parts/content', 'none' ); ?>
+			</div>
+		</div>
+		<?php endwhile; ?>
 
-		<?php endif; ?>
+</div>
 
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

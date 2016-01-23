@@ -1338,6 +1338,7 @@ a:active {
 	padding: 10px 0;
 	display: block;
 	text-align: center;
+	font-weight:bold;
 }
 
 .main-navigation li {

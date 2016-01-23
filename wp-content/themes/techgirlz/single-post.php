@@ -3,7 +3,7 @@
 <div class="page-landing" style="background-image:
 url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 	<div class="topArea">
-		<h1><?php the_title(); ?></h1>
+		<h1>Blog</h1>
 	</div>
 </div>
 
@@ -20,6 +20,7 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<h1><?php the_title(); ?></h1>
+		<br />
 		<p><?php echo the_content(); ?></p>
 
 	<?php
@@ -45,10 +46,10 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 		?>
 
 		<a href="<?php the_permalink(); ?>">
-			<div class="anywhere-circle">
+			<div class="anywhere-square">
 				<?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
 			</div>
-			<p><?php the_title(); ?></p>
+			<span><?php the_title(); ?></span>
 		</a>
 
 		<?php endwhile; ?>

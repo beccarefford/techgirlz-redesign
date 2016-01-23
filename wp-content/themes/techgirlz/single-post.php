@@ -1,34 +1,29 @@
-<?php
-/**
- * The template for displaying all single posts.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
- *
- * @package techgirlz
- */
+<?php get_header(); ?>
 
-get_header(); ?>
+<div class="page-landing" style="background-image:
+url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
+	<div class="topArea">
+		<h1><?php the_title(); ?></h1>
+	</div>
+</div>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+				<div class="columnBlogDeco">
+					<a href="/tag/press">Press</a> &bull;
+					<a href="/tag/infographic">Infographics</a> &bull;
+					<a href="/tag/video">Videos</a>
+				</div>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+	<div class="page-content" id="page-content">
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+	<h1><?php the_title(); ?></h1>
+	<p>
+		<?php echo the_content(); ?>
+	</p>
 
-			<?php the_post_navigation(); ?>
+<?php endwhile;
+endif; ?>
 
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
+</div>
 
-		<?php endwhile; // End of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

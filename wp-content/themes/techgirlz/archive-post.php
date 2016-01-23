@@ -47,15 +47,16 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			<p><?php echo wpse_custom_excerpts($content, 100, $permalink); ?></p>
 			<a href="<?php the_permalink(); ?>"><div class="myButton">Read More</div></a>
 
-		<?php $current_post++; ?>
+			<?php $current_post++; ?>
 
-			</div>
 		</div>
+		</div>
+
 		<?php endwhile; ?>
 
-<div class="alignright"><?php next_posts_link('Further Entries &raquo;') ?></div>
-<div class="alignleft"><?php previous_posts_link('&laquo; Previous Entries ') ?></div>
+		<?php next_posts_link(); ?>
+		<?php previous_posts_link(); ?>
 
-</div>
+		</div>
 
 <?php get_footer(); ?>

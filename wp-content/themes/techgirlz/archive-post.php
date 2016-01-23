@@ -59,6 +59,9 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 
 		<?php endwhile; ?>
 
+<div class="row">
+	<div class="col-md-12">
+
 		<div class="pagination-forward">
 		<?php next_posts_link(); ?>
 		</div>
@@ -66,6 +69,9 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 		<div class="pagination-backward">
 		<?php previous_posts_link(); ?>
 		</div>
+
+	</div>
+</div>
 
 		</div>
 

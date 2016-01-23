@@ -26,7 +26,7 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			<?php
 	    $loop_posts = new WP_Query(array(
 	    'post_type' => 'post',
-			'order' => 'ASC',
+			'order' => 'DESC',
 	    'orderby' => 'date',
 	    ));
 	    ?>

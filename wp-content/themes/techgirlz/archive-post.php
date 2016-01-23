@@ -27,7 +27,8 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 	    $loop_posts = new WP_Query(array(
 	    'post_type' => 'post',
 	    'orderby' => 'menu_order',
-	    'order' => 'DESC'
+	    'order' => 'DESC',
+			'post_per_page' => -1
 	    ));
 	    ?>
 

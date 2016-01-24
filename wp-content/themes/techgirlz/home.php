@@ -38,30 +38,114 @@
     <div class="col-md-4">
       <h2>What We Do</h2>
         <p>TechGirlz empowers 13-15 year old girls to explore technology through
-          free, hands-on workshops. Placeholding.</p>
+          free, hands-on workshops.</p>
     </div>
 
     <div class="col-md-4">
       <h2>How We Do It</h2>
         <p>By creating open curricula of technical topics that are free to all.
-        This is placeholder text to wrap three lines.</p>
+        This approach helps us reach more girls in more places.</p>
     </div>
 
     <div class="col-md-4">
       <h2>Why We Do It</h2>
-        <p>To bridge the gender gap in technology by enabling communities to teach girls tech.
-        Some more placeholder text here.</p>
+        <p>We believe it takes a village to change girls' minds about tech, 
+        so we're enabling communities to expose them to it.</p>
     </div>
   </div>
 
-  <br>
-  <br>
-
+  <div class="spacing">&nbsp;</div>
   <hr />
+  <div class="spacing">&nbsp;</div>
 
-  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <h1><span>81%</span></h1>
+      <p>
+        Of girls were more interested in technology after attending one of our workshops.
+      </p>
+    </div>
 
-  <h1>Fast Facts</h1>
+    <div class="col-md-8">
+      <span><i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      </span>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-8">
+      <span><span><i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+    </span>
+    </span>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+      <i class="fa fa-female fa-5x"></i>
+    </div>
+
+
+    <div class="col-md-4">
+      <h1><span>70%</span></h1>
+      <p>
+        Of girls said they were more likely to pursue a career in technology after one of our workshops.
+      </p>
+    </div>
+  </div>
+
 </div>
 
 <?php get_footer(); ?>

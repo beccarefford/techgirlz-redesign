@@ -125,6 +125,19 @@ Home Page Elements
 	font-family: Lora;
 }
 
+#home-content h1 span {
+	font-size: 150px;
+	margin: -20px 0 0 0;
+}
+
+#home-content span i {
+	color: #F9976D;
+}
+
+#home-content span span i {
+	color: #e06287;
+}
+
 #home-content h1 {
 	font-family: 'Lora';
 	font-weight: bold;
@@ -139,6 +152,10 @@ Home Page Elements
 	font-weight: bold;
 	letter-spacing: -1px;
 	text-transform: uppercase;
+}
+
+#home-content .col-md-8 {
+	margin-top: 60px;
 }
 
 article,

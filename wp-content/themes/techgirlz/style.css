@@ -158,6 +158,14 @@ Home Page Elements
 	margin-top: 60px;
 }
 
+#home-content .btn p {
+	font-family: Open Sans;
+	padding-top: 2px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 article,
 aside,
 details,

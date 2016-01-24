@@ -744,9 +744,8 @@ Begin Topics
 <div class="spacing">&nbsp;</div>
 <center>
 <h2>See a Topic You Like?</h2>
+<a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784"><div class="myButton">Request Free Lesson Plan</div></a>
 </div>
-<div class="centerButton">
-<a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784" class="myButton">Request Free Lesson Plan</a>
 </div>
 
 <div class="spacing">

@@ -203,16 +203,8 @@ a.tribe-events-ical {
 }
 
 .tribe-events-event-image img {
-    width: 700px;
-    height: 400px;
-    -webkit-border-radius: 150px;
-    -moz-border-radius: 150px;
-    -ms-border-radius: 150px;
-    -o-border-radius: 150px;
-    border-radius: 150%;
+    width: 100%;
     border: 9px solid #e06287;
-    margin-left: 10%;
-    margin-right: 10%;
     z-index: -1;
 }
 

@@ -49,14 +49,12 @@
 
     <div class="col-md-4">
       <h2>Why We Do It</h2>
-        <p>We believe it takes a village to change girls' minds about tech, 
+        <p>We believe it takes a village to change girls' minds about tech,
         so we're enabling communities to expose them to it.</p>
     </div>
   </div>
 
-  <div class="spacing">&nbsp;</div>
   <hr />
-  <div class="spacing">&nbsp;</div>
 
   <div class="row">
     <div class="col-md-4">

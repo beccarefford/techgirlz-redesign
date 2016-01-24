@@ -54,6 +54,7 @@
     </div>
   </div>
 
+<div class="spacing">&nbsp;</div>
   <hr />
 
   <div class="row">

@@ -38,7 +38,7 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 		$wp_query = new WP_Query(array(
 			'post_type' => 'post',
 			'order' => 'DESC',
-			'orderby' => 'rand',
+			'orderby' => 'date',
 			'posts_per_page' => 6
 		));
 		?>

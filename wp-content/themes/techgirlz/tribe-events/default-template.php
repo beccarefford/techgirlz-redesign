@@ -26,7 +26,7 @@ url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
 		</div>
 	</div>
 
-<div class="page-content" id="page-content">
+<div class="event-page-content" id="page-content">
 
 <div id="tribe-events-pg-template">
 	<?php tribe_events_before_html(); ?>
@@ -34,7 +34,9 @@ url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
 	<?php tribe_events_after_html(); ?>
 </div>
 
+<div class="spacing">&nbsp;</div>
 <hr />
+<div class="spacing">&nbsp;</div>
 
 <div class="row">
   <div class="col-md-6">
@@ -52,6 +54,7 @@ url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
       <a href="http://techgirlz.us10.list-manage.com/subscribe?u=abcebd5b4b7aec29f1589129f&id=b2553e542c"><i class="fa fa-envelope fa-2x"></i></a>
     </center>
   </div>
+
 </div>
 
 </div>

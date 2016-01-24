@@ -885,9 +885,10 @@ select.tribe-events-dropdown {
     color: #333;
     display: none;
     left: 3px;
+    margin: 10px 0;
     line-height: 1.4;
     position: absolute;
-    width: 320px;
+    width: 480px;
     z-index: 1001
 }
 
@@ -1022,18 +1023,17 @@ select.tribe-events-dropdown {
     background-color: #e06287;
     color: #fff;
     font-size: 20px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    line-height: 24px;
-    margin: 0;
-    min-height: 24px;
-    padding: 0 6px
+    font-family: Open Sans;
+    text-transform: uppercase;
+    height: 70px;
+    padding: 25px 0px 30px 0px;
+    text-align: center;
 }
 
 .tribe-events-tooltip .tribe-events-event-body {
     font-size: 11px;
-    font-weight: 400;
-    padding: 3px 6px 6px
+    padding: 10px 10px 0px 10px;
+    align: left;
 }
 
 .tribe-events-tooltip .duration {
@@ -1048,8 +1048,8 @@ select.tribe-events-dropdown {
 }
 
 .tribe-events-tooltip .tribe-events-event-thumb img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   -ms-border-radius: 150px;
@@ -1057,6 +1057,8 @@ select.tribe-events-dropdown {
   border-radius: 150%;
   border: 9px solid #e06287;
   z-index: -1;
+  margin-left: 35%;
+  margin-right: 30%;
 }
 
 .tribe-events-tooltip p.entry-summary {

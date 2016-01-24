@@ -713,6 +713,19 @@ Pages
 	padding: 120px 300px;
 }
 
+.event-page-content a {
+	font-family: Open Sans !important;
+	font-size: 13px !important;
+	font-weight: bold !important;
+	text-transform: uppercase;
+}
+
+.event-page-content .col-md-6 a {
+	font-family: Lora;
+	color: #e06287;
+	font-size: 12px;
+}
+
 .sticky {
 	display: block;
 }

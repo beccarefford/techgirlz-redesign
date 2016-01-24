@@ -55,7 +55,7 @@
   </div>
 
 <div class="spacing">&nbsp;</div>
-  <hr />
+<hr />
 
   <div class="row">
     <div class="col-md-4">
@@ -146,11 +146,12 @@
   </div>
 
 <center>
-<div class="spacing">&nbsp;</div>
-<a href="/techshopz-in-a-box"><div class="btn" text-align="center">
-  <p>Help Us Reach More Girls</p>
-</div>
-</a>
+  <div class="spacing">&nbsp;</div>
+    <a href="/techshopz-in-a-box">
+      <div class="btn" text-align="center">
+        <p>Help Us Reach More Girls</p>
+      </div>
+    </a>
 </center>
 
 </div>

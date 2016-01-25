@@ -14,7 +14,7 @@ Template Name: TechShopz In A Box
   <a href="/pledge-to-teach15-girls/">
     <div class="col-md-6 nopadding">
         <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
-          <h1>Take the Pledge &nbsp; <i class="fa fa-hand-paper-o"></i></h1>
+          <h1>Pledge to #Teach15 &nbsp; <i class="fa fa-hand-paper-o"></i></h1>
         </div>
     </div>
   </a>

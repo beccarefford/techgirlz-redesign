@@ -980,6 +980,10 @@ samp {
 	text-transform: uppercase;
 }
 
+.tribe-events-content a .myButton {
+	color: #ffffff;
+	float: right;
+
 
 .centerButton {
 	text-align: center;

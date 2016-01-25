@@ -18,7 +18,10 @@
 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 			<a target="_blank" href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-3x"></i></a>
 			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-			<i class="fa fa-money fa-3x"></i>
+			<a target="_blank" href="https://www.youtube.com/channel/UCXHNcfrRzVZxlHUW4ICdoWQ"><i class="fa fa-youtube fa-3x"></i></a>
+			&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+			<a href="/donate"><i class="fa fa-money fa-3x"></i></a>
+
 
 		<footer id="copyfooter">
 			&copy; 2016 <a href="http://techgirlz.org/">TechGirlz</a> &bull; Empowering girls

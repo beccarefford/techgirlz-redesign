@@ -5,7 +5,7 @@
     url('/wp-content/uploads/2016/01/3038671-poster-p-2-can-littlebits-save-radioshack-111-1024x306.jpg')">
     <div class="row">
       <div class="col-md-6">
-        <h1>We provide free lesson plans to teach girls tech.</h1>
+        <h1>We provide free workshops plans to teach girls tech.</h1>
       </div>
 
       <div class="col-md-6">

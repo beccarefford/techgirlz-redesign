@@ -110,11 +110,17 @@
 
 <center>
   <div class="spacing">&nbsp;</div>
-    <a href="/techshopz-in-a-box">
-      <div class="btn" text-align="center">
-        <p>Help Us Reach More Girls</p>
-      </div>
-    </a>
+
+  <div class="row">
+    <div class="col-md-12">
+      <a href="/techshopz-in-a-box">
+        <div class="btn">
+          <p>Help Us Reach More Girls</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
 </center>
 
 </div>

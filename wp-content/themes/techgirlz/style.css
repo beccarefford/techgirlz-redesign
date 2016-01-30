@@ -594,7 +594,7 @@ Pages
   -moz-border-radius: 9;
   border-radius: 9px;
 	height: 80px;
-	width: 400px;
+	width: 350px;
   background: #4AA983;
   padding: 30px 30px 30px 30px;
 }
@@ -606,6 +606,8 @@ Pages
 	font-weight: bold;
 	text-align: center;
   color: #ffffff;
+	padding-left: 50%;
+	padding-right: 50%;
 	margin: 20px 20px 20px 20px;
 }
 

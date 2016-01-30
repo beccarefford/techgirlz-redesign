@@ -123,6 +123,7 @@ Home Page Elements
 #home-content p {
 	font-size: 18px;
 	font-family: Lora;
+	padding: 0px 20px 0 20px;
 }
 
 #home-content h1 span {
@@ -365,11 +366,11 @@ Pages
 
 #page-content h3 {
 	font-family: Open Sans;
-	font-size: 22px;
+	font-size: 26px;
+	padding: 10px;
 	font-weight: bold;
-	color: #97DD61;
+	letter-spacing: -1px;
 	text-transform: uppercase;
-	padding: 0px 0px 10px 0px;
 }
 
 #page-content p {
@@ -568,6 +569,23 @@ Pages
 }
 
 .page-content a:hover i {
+	color: #2E936A;
+}
+
+#home-content a {
+	font-size: 18px;
+	font-family: Lora;
+	color: #e06287;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#home-content a i {
+	color: #4AA983;
+	padding: 0px 10px 0px 10px;
+}
+
+#home-content a:hover i {
 	color: #2E936A;
 }
 

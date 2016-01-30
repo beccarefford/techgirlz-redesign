@@ -161,6 +161,11 @@ Home Page Elements
 	margin-top: 60px;
 }
 
+#home-content .btn {
+	margin: 20px 0 28px 0;
+}
+
+
 #home-content .btn p {
 	font-family: Open Sans;
 	padding-top: 2px;

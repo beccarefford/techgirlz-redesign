@@ -90,60 +90,68 @@ Template Name: TechShopz In A Box
 
 <div class="spacing">&nbsp;</div>
 
+<div class="topics">
 <div class="row">
   <div class="col-md-2">
     <a href="/techshop-topics">
+      <center>
       <div class="anywhere-circle">
         <img alt="Web Development TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-15-at-1.35.09-PM.png">
       </div>
     </a>
-    <center><p>Web Development</p></center>
+    <p>Web Development</p></center>
   </div>
 
   <div class="col-md-2">
     <a href="/techshop-topics">
+      <center>
       <div class="anywhere-circle">
         <img alt="Game Design TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.08.39-AM.png">
       </div>
     </a>
-    <center><p>Game Design & Development</p></center>
+    <p>Game Design & Development</p></center>
   </div>
 
   <div class="col-md-2">
     <a href="/techshop-topics">
+      <center>
       <div class="anywhere-circle">
         <img alt="Mobile Apps TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-15-at-1.39.34-PM.png">
       </div>
     </a>
-    <center><p>Mobile Apps</p></center>
+    <p>Mobile Apps</p></center>
   </div>
 
   <div class="col-md-2">
     <a href="/techshop-topics">
+      <center>
       <div class="anywhere-circle">
         <img alt="Media Editing TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.20.20-AM.png">
       </div>
     </a>
-    <center><p>Media Editing</p></center>
+    <p>Media Editing</p></center>
   </div>
 
   <div class="col-md-2">
     <a href="/techshop-topics">
+      <center>
       <div class="anywhere-circle">
         <img alt="Circuits & Hardware TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.26.49-AM.png">
       </div>
     </a>
-    <center><p>Circuits and Hardware</p></center>
+    <p>Circuits and Hardware</p></center>
   </div>
 
   <div class="col-md-2">
     <a href="/techshop-topics">
+      <center>
       <div class="anywhere-circle">
         <img alt="Robotics TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.30.41-AM.png">
       </div>
     </a>
-    <center><p>Robotics</p></center>
+    <p>Robotics</p></center>
   </div>
+</div>
 </div>
 
 <div class="spacing">&nbsp;</div>

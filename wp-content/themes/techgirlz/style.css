@@ -387,6 +387,12 @@ Pages
 	text-transform: uppercase;
 }
 
+#topics p {
+	font-size: 18px;
+	font-family: Lora;
+	padding: 15px 0px 0px 0px;
+}
+
 #page-content ol li {
 	font-size: 18px;
 	font-family: Lora;

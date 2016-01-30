@@ -39,6 +39,6 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 
 <div class="staff-page-content" id="page-content">
 
-
+[contact-form-7 id="3775" title="Contact form 1"]
 
 <?php get_footer(); ?>

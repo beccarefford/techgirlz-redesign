@@ -133,10 +133,12 @@ Home Page Elements
 
 #home-content span i {
 	color: #F9976D;
+	padding: 12px 0 0 0;
 }
 
 #home-content span span i {
 	color: #e06287;
+	padding: 12px 0 0 0;
 }
 
 #home-content h1 {
@@ -591,6 +593,15 @@ Pages
 
 #home-content a:hover i {
 	color: #2E936A;
+}
+
+#home-content h3 {
+	font-family: Open Sans;
+	color: #e06287;
+	font-size: 30px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0px 10px 20px 10px;
 }
 
 .btn {

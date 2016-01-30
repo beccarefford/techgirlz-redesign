@@ -136,6 +136,10 @@ Home Page Elements
 	padding: 12px 0 0 0;
 }
 
+#home-content i {
+	padding: 12px 0 0 0;
+}
+
 #home-content span span i {
 	color: #e06287;
 	padding: 12px 0 0 0;
@@ -593,7 +597,7 @@ Pages
 
 #home-content a i {
 	color: #4AA983;
-	padding: 0px 10px 0px 10px;
+	padding: 15px 10px 0px 10px;
 }
 
 #home-content a:hover i {

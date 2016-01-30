@@ -20,13 +20,21 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 </div>
 
 <div class="row">
-  <div class="col-md-6 nopadding">
-      <div class="columnPageDeco"></div>
-  </div>
+  <a href="/volunteer">
+    <div class="col-md-6 nopadding">
+        <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
+          <h1>Donate Time &nbsp; <i class="fa fa-clock-o"></i></h1>
+        </div>
+    </div>
+  </a>
 
-  <div class="col-md-6 nopadding">
-    <div class="columnPageDeco2"></div>
-  </div>
+  <a href="/donate">
+    <div class="col-md-6 nopadding">
+      <div class="columnDonateMoney" onmouseover="this.style.background='#D97044';" onmouseout="this.style.background='#F9976D';">
+        <h1>Donate Money &nbsp; <i class="fa fa-money"></i></h1>
+      </div>
+    </div>
+  </a>
 </div>
 
 <div class="staff-page-content" id="page-content">

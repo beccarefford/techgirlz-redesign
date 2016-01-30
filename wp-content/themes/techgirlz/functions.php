@@ -188,3 +188,5 @@ function myButton($atts, $content = ''){
 }
 
 add_shortcode('mybutton', 'myButton');
+
+require_once('wp_bootstrap_navwalker.php');

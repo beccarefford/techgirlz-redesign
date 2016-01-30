@@ -334,8 +334,6 @@ Pages
 	text-decoration: none;
 }
 
-/* Transitions for Footer */
-
 .columnBlogDeco a,
 .columnBlogDeco a:hover {
 	-webkit-transition: all .3s ease-out;

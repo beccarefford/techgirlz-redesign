@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<a href="/techshopz-in-a-box">
   <div class="home-landing" style="background-image:
     url('/wp-content/uploads/2016/01/3038671-poster-p-2-can-littlebits-save-radioshack-111-1024x306.jpg')">
     <div class="row">
@@ -8,6 +7,7 @@
         <h1>We provide free workshop plans to teach girls tech.</h1>
       </div>
 
+<a href="/techshopz-in-a-box">
       <div class="col-md-6">
         <i class="fa fa-arrow-circle-right fa-5x" onmouseover="this.style.color='#F5F5F5';" onmouseout="this.style.color='#ffffff';"></i>
       </div>
@@ -115,7 +115,7 @@
     <div class="col-md-12">
       <a href="/techshopz-in-a-box">
         <div class="btn">
-          <p>Help Us Reach More Girls</p>
+          <p>Help Us Reach More</p>
         </div>
       </a>
     </div>

@@ -57,26 +57,6 @@ Home Page Elements
 	margin: 165px 0px 0 600px;
 }
 
-@media (max-width: 60em) {
-	.landing h1 {
-		font-size: 40px;
-	}
-}
-
-@media (max-width: 37.5em) {
-	.landing h1 {
-		font-size: 30px;
-		width: 80%;
-	}
-}
-
-@media (max-width: 30em) {
-	.landing h1 {
-		font-size: 25px;
-		width: 80%
-	}
-}
-
 .columnDonateTime {
 	background-color: #e06287;
 	margin: none;
@@ -247,24 +227,6 @@ Pages
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
-}
-
-@media (max-width: 60em) {
-	.page-landing h1 {
-		font-size: 40px;
-	}
-}
-
-@media (max-width: 37.5em) {
-	.page-landing h1 {
-		font-size: 30px;
-	}
-}
-
-@media (max-width: 30em) {
-	.page-landing h1 {
-		font-size: 25px;
-	}
 }
 
 .page-landing {
@@ -475,26 +437,6 @@ Pages
 #staff-social-icons {
 	margin: 18px 0px 20px 10px;
 	align: center;
-}
-
-@media (max-width: 60em) {
-	.page-landing h1 {
-		font-size: 30px;
-	}
-}
-
-@media (max-width: 37.5em) {
-	.page-landing h1 {
-		font-size: 20px;
-		width: 80%;
-	}
-}
-
-@media (max-width: 30em) {
-	.page-landing h1 {
-		font-size: 15px;
-		width: 80%
-	}
 }
 
 .staff-page-landing .topArea {
@@ -1384,22 +1326,6 @@ a:active {
 	padding: 0px 0;
 }
 
-.header-logo {
-	float:left;
-	position:relative;
-	height: 50px;
-	width: 150px;
-	padding: 0px 0;
-}
-
-.header-logo {
-	float:left;
-	position:relative;
-	height: 50px;
-	width: 150px;
-	padding: 0px 0;
-}
-
 .main-navigation {
 	padding: 20px 60px;
 	width: 100%;
@@ -1502,7 +1428,7 @@ a:active {
 }
 
 @media (max-width: 50em) {
-.header-logo {display:none;}
+	.header-logo {display:none;}
 }
 
 @media screen and (min-width: 50em) {
@@ -1766,30 +1692,52 @@ object {
 --------------------------------------------------------------*/
 
 .navbar-brand {
-    height: 75px!important;
-    margin-right: 100px;
+    height: 50px!important;
+    margin: 0 0px 0 60px!important;
 }
 
 .nav {
     font-family: Open Sans;
-		color: #e06287!important;
+    color: #e06287!important;
     text-transform: uppercase;
-		margin: 30px 0 30px 60px!important;
-		height:60px!important;
+    margin: 30px 90px 0 60px!important;
+    height:60px!important;
+}
+
+.navbar-default {
+    opacity: 0.9;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     color: #e06287!important;
     background-color: transparent!important;
+		font-weight: bold!important;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #777;
+    color: #e37388!important;
     font-size: 13px!important;
+		margin-top: -10px!important;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
     color: #e06287!important;
+}
+
+.dropdown-menu>li>a {
+	color: #ffffff!important;
+	font-weight: bold!important;
+	font-family:'Open Sans'!important;
+	font-size: 13px!important;
+	padding: 20px 20px!important;
+}
+
+ul.dropdown-menu {
+	background-color: #e06278!important;
+}
+
+.dropdown-menu>li>a:hover {
+	background-color:#C43D64!important;
 }
 
 .navbar-toggle {
@@ -1807,7 +1755,65 @@ object {
 }
 
 @media (max-width: 768px) {
-.navbar-default .navbar-collapse, .navbar-default .navbar-form {
-    float: left
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    float: left;
+	}
 }
+
+@media (max-width: 900px) {
+    .navbar-header {
+        float: none;
+				height: 90px!important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+		.dropdown-menu>li>a {
+			color: #ffffff!important;
+			font-weight: bold!important;
+			font-family:'Open Sans'!important;
+			font-size: 13px!important;
+			background-color: #e06278!important;
+			padding: 20px 20px!important;
+		}
+
+		.dropdown-menu>li>a:hover {
+			background-color:#C43D64!important;
+		}
+
+		.dropdown-menu {
+			background-color: #e06278!important;
+			margin: none;
+			padding: none;
+		}
+
+    .navbar-text {
+        float: none;
+        margin: 0px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
 }

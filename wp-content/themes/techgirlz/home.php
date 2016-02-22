@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="home-landing" style="background-image:
-    url('/wp-content/uploads/2016/01/3038671-poster-p-2-can-littlebits-save-radioshack-111-1024x306.jpg')">
+    url('/wp-content/uploads/2016/02/TechGirlzHomepage.jpg')">
     <div class="row">
       <div class="col-md-6">
         <h1>We provide free workshop plans to teach girls tech.</h1>

@@ -2,15 +2,17 @@
 
   <div class="home-landing" style="background-image:
     url('/wp-content/uploads/2016/02/TechGirlzHomepage.jpg')">
-    <div class="row">
-      <div class="col-md-6">
-        <h1>We provide free workshop plans to teach girls tech.</h1>
-      </div>
+    <div class="topArea">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>We provide free workshop plans to teach girls tech.</h1>
+        </div>
 
 <a href="/techshopz-in-a-box">
       <div class="col-md-6">
         <i class="fa fa-arrow-circle-right fa-5x" onmouseover="this.style.color='#F5F5F5';" onmouseout="this.style.color='#ffffff';"></i>
       </div>
+    </div>
     </div>
   </div>
 </a>

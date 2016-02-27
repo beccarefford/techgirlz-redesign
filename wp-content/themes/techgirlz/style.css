@@ -45,24 +45,19 @@ Home Page Elements
 	margin-top: 90px;
 	width: 100%;
 	height: 390px;
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 0, 0, 0.4);
 	display: block;
 }
 
 .home-landing h1 {
-	font-size: 60px;
+	font-size: 55px;
 	font-weight: 600;
-	line-height: 1.17;
+	line-height: 1.22;
 	letter-spacing: 0;
-	margin: 80px 0 20px 60px;
+	margin: 11% 0 0 11%;
 	letter-spacing: -1px;
 	font-family: Lora;
 	color: #ffffff;
-}
-
-.home-landing .fa-5x {
-  color: white;
-	margin: 165px 0px 0 600px;
 }
 
 .columnDonateTime {
@@ -1344,8 +1339,8 @@ a:active {
 	font-family: "Open Sans";
 	text-align: center;
 	background-color: #ffffff;
-	background-color: rgba(255, 255, 255,0.8);
-	color: rgba(255,255,255,0.5);
+	background-color: rgba(255, 255, 255);
+	color: rgba(255,255,255);
 	text-transform: uppercase;
 	line-height: 1;
 	font-size: 13px;
@@ -1713,7 +1708,8 @@ object {
 }
 
 .navbar-default {
-    opacity: 0.9;
+	background-color: #ffffff!important;
+	border-color: #f8f8f8!important;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -1724,7 +1720,8 @@ object {
 
 .navbar-default .navbar-nav>li>a {
     color: #e37388!important;
-    font-size: 13px!important;
+    font-size: 15px!important;
+		font-weight: 600!important;
 		margin-top: -10px!important;
 }
 
@@ -1824,4 +1821,41 @@ ul.dropdown-menu {
     .collapsing {
         overflow: hidden!important;
     }
+}
+
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+  		display:block !important;
+		}
 }

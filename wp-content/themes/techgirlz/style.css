@@ -11,9 +11,8 @@ Text Domain: techgirlz
 
 --------------------------------------------------------------*/
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700);
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
 
 /*--------------------------------------------------------------
 # Normalize
@@ -98,14 +97,17 @@ Home Page Elements
 
 #home-content {
 	display:block;
-	margin: 4%;
-	text-align: center;
+	padding-left: 6%;
+	padding-right: 10%;
+	padding-top: 5%;
 }
 
 #home-content p {
-	font-size: 18px;
-	font-family: Lora;
-	padding: 0px 20px 0 20px;
+	font-size: 17.5px;
+	font-family: Open Sans;
+	font-weight: 300;
+	line-height: 1.6em;
+	padding-bottom: 20px;
 }
 
 #home-content i {
@@ -133,16 +135,8 @@ Home Page Elements
 	font-weight: 600;
 	line-height: 1.22;
 	letter-spacing: 0;
-	letter-spacing: -1px;
 	font-family: Lora;
 	color: #ffffff;
-}
-
-#home-content span h1 {
-	font-family: 'Lora';
-	font-weight: bold;
-	letter-spacing: -1px;
-	font-size: 100px;
 }
 
 .banner .revolution {
@@ -201,13 +195,42 @@ Home Page Elements
 	color: #ffffff;
 }
 
-#home-content h1 > a {
+#home-blogroll {
+	display: block;
+	padding: 5% 0;
+}
+
+#home-blogroll .wrapper {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+#home-blogroll h1 {
 	font-family: Open Sans;
 	color: #4AA983;
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 0px 10px 10px 10px;
+	text-align: left;
+}
+
+#home-blogroll h1>a {
+	font-family: Open Sans;
+	color: #4AA983;
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+#home-blogroll p {
+	font-size: 19px;
+	font-family: Open Sans;
+	font-weight: 300;
+	font-color: #f3f3f3;
+	line-height: 1.7em;
+	padding-bottom: 30px;
+	padding-top: 30px;
 }
 
 article,
@@ -397,9 +420,9 @@ Pages
 }
 
 #page-content p {
-	font-size: 18px;
-	font-family: Lora;
-	padding: 0px 10px 10px 10px;
+	font-size: 19px;
+	font-family: Open Sans;
+	font-weight: 300;
 }
 
 #page-content span {
@@ -411,9 +434,9 @@ Pages
 }
 
 #topics p {
-	font-size: 18px;
-	font-family: Lora;
-	padding: 15px 0px 0px 0px;
+	font-size: 19px;
+	font-family: Open Sans;
+	font-weight: 300;
 }
 
 #page-content ol li {

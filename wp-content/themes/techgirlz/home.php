@@ -100,11 +100,12 @@
   </div>
 </div>
 
-<div id="home-content">
+<div id="home-blogroll">
+  <div class="wrapper">
   		<?php
   		$wp_query = new WP_Query(array(
   			'post_type' => 'post',
-  			'order' => 'DESC',
+  			'order' => 'ASC',
   			'orderby' => 'date',
   			'posts_per_page' => 3
   		));
@@ -113,17 +114,20 @@
 
     <div class="row">
       <div class="col-md-4">
+        <hr />
         <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
       </div>
 
       <div class="col-md-8">
-          <p><?php echo wpse_custom_excerpts($content, 100, $permalink); ?></p>
+        <?php
+        $content = get_the_content();
+  			$permalink = get_permalink(); ?>
+        <p><?php echo wpse_custom_excerpts($content, 100, $permalink); ?></p>
       </div>
     </div>
 
-    <hr />
-
     <?php endwhile; ?>
+  </div>
 </div>
 
 <?php get_footer(); ?>

@@ -35,7 +35,7 @@
   <div class="col-md-4">
   <center>
   <a href="/techshopz/"><i class="fa fa-cogs fa-5x"></i></a>
-  <h2>Free Workshops</h2>
+  <h2>Upcoming Events</h2>
     <p>We put all types of tech in the hands of middle school girls through free, project-based workshops. Browse events and register your daughter today.</p>
   </center>
   </div>
@@ -59,63 +59,71 @@
  </div>
 </div>
 
+  <div class="banner">
+    <div class="revolution">
+      <center><h1>Be Part of the Revolution of Girls in Tech</h1></center>
+    </div>
+  </div>
+
+    <div id="home-cta">
+      <div class="row">
+        <div class="col-md-4">
+        <center>
+          <a href="/techshopz-in-a-box/">
+          <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.13-PM.png"></a>
+          <h2>Teach</h2>
+        </center>
+        </div>
+
+        <div class="col-md-4">
+        <center><a href="/volunteer">
+          <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.24-PM.png"></a>
+          <h2>Volunteer</h2>
+        </center>
+        </div>
+
+        <div class="col-md-4">
+        <center>
+          <a href="/donate">
+          <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.35-PM.png"></a>
+          <h2>Donate</h2>
+        </center>
+        </div>
+      </div>
+    </div>
+
 <div class="banner">
-  <div class="effect">
-    <center><h1>The TechGirlz Effect</h1></center>
+  <div class="blogroll">
+    <center>
+      <h1>From the TechGirlz Blog</h1>
+    </center>
   </div>
 </div>
-
-<div class="spacing">&nbsp;</div>
 
 <div id="home-content">
-  <div class="row">
-    <div class="col-md-7">
-      <center>
-      <img src="/wp-content/uploads/2016/02/Screen-Shot-2016-02-29-at-6.42.50-PM.png">
-      <br />
-      <br />
-      <br />
-      <p>
-        Demand for our workshops is growing, and so are we! Here's how many TechShopz we've
-        run per school year.
-      </p>
-    </center>
+  		<?php
+  		$wp_query = new WP_Query(array(
+  			'post_type' => 'post',
+  			'order' => 'DESC',
+  			'orderby' => 'date',
+  			'posts_per_page' => 3
+  		));
+
+    while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+    <div class="row">
+      <div class="col-md-4">
+        <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+      </div>
+
+      <div class="col-md-8">
+          <p><?php echo wpse_custom_excerpts($content, 100, $permalink); ?></p>
+      </div>
     </div>
 
-    <div class="col-md-3 col-md-offset-1">
-      <center><img src="/wp-content/uploads/2016/02/Screen-Shot-2016-02-29-at-6.09.53-PM.png"></center>
-      <p>
-        <br />
-        of girls were <strong>more interested</strong> in tech after one workshop.
-      </p>
-    </div>
-  </div>
-</div>
+    <hr />
 
-<div class="spacing">&nbsp;</div>
-
-<div class="banner">
-  <div class="revolution">
-    <center><h1>Be Part of the Revolution of Girls in Tech</h1></center>
-
-  <div class="row">
-      <div class="col-md-4 nopadding">
-        <img src="/wp-content/uploads/2016/02/Teach.jpg">
-        <h2>Teach <i class="fa fa-arrow-circle-right"></i></h2>
-      </div>
-
-      <div class="col-md-4 nopadding">
-        <img src="/wp-content/uploads/2016/02/Volunteer.jpg">
-        <h2>Volunteer <i class="fa fa-arrow-circle-right"></i></h2>
-      </div>
-
-      <div class="col-md-4 nopadding">
-        <img src="/wp-content/uploads/2016/02/Donate.jpg">
-        <h2>Donate <i class="fa fa-arrow-circle-right"></i></h2>
-      </div>
-  </div>
-
-</div>
+    <?php endwhile; ?>
 </div>
 
 <?php get_footer(); ?>

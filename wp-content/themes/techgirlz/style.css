@@ -224,6 +224,14 @@ Home Page Elements
 	line-height: 1.4em;
 }
 
+#home-blogroll h1>a:hover {
+	text-decoration: none;
+}
+
+#home-blogroll h1>a:active {
+	text-decoration: none;
+}
+
 #home-blogroll p {
 	font-size: 19px;
 	font-family: Open Sans;

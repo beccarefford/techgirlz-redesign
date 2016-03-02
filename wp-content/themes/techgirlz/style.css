@@ -220,8 +220,8 @@ Home Page Elements
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	line-height: 2em;
 	text-align: left;
+	line-height: 1.4em;
 }
 
 #home-blogroll p {
@@ -230,8 +230,8 @@ Home Page Elements
 	font-weight: 300;
 	font-color: #f3f3f3;
 	line-height: 1.7em;
-	padding-bottom: 38px;
-	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-top: 37px;
 }
 
 article,

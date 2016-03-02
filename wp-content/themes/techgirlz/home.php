@@ -105,7 +105,7 @@
   		<?php
   		$wp_query = new WP_Query(array(
   			'post_type' => 'post',
-  			'order' => 'ASC',
+  			'order' => 'DESC',
   			'orderby' => 'date',
   			'posts_per_page' => 3
   		));

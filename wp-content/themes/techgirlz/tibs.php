@@ -37,59 +37,80 @@ Template Name: TechShopz In A Box
 
   <div class="col-md-6">
     <h2>Background</h2>
-     <p>5 years ago, TechGirlz started with a singular vision: to change the way middle school girls think about technology through free, hands-on workshops. The workshops caught on quickly - within a year, our events were getting booked solid, with waitlists reaching two, sometimes three, times the amount of seats available. We needed more instructors willing to teach our girls.</p>
+      <p>5 years ago, TechGirlz started with a singular vision: to change the way middle school girls think about technology through free, hands-on workshops. The workshops caught on quickly - within a year, our events were getting booked solid, with waitlists reaching two, sometimes three, times the amount of seats available. We needed more instructors willing to teach our girls.</p>
 
-<h2>TechShopz In A Box™ Are Born</h2>
-<p>So we decided to open source our lesson plans, documents, and procedures, calling these free materials TechShopz in a Box™. This allowed anyone, anywhere to run our workshops. As a result of this effort, the number of girls we've reached has more than tripled - and with your help, we can make that number grow.
-     </p>
+    <h2>TechShopz In A Box™ Are Born</h2>
+      <p>So we decided to open source our lesson plans, documents, and procedures, calling these free materials TechShopz in a Box™. This allowed anyone, anywhere to run our workshops. As a result of this effort, the number of girls we've reached has more than tripled - and with your help, we can make that number grow.</p>
+  </div>
+</div>
+</div>
+
+  <div class="banner">
+    <div class="revolution">
+      <center><h1>It's Easy and Rewarding</h1></center>
+    </div>
+  </div>
+
+<div class="page-content" id="page-content">
+  <div class="quote">
+    <h1><i class="fa fa-quote-left fa-2x"></i>
+      <br>Having the TechGirlz program means that everything is already set
+      out for you so you don't have to create anything from scratch. They have
+      made this program so “plug-and-play” that anyone can go from zero to hero
+      with very little time or effort.
+    <br><em style="float: right">- Melody Zacharias</em></h1>
+  </div>
+</div>
+
+<div class="banner">
+  <div class="blogroll">
+    <center><h1>TechShopz in a Box™ Include:</h1></center>
+  </div>
+
+<div class="page-content" id="page-content">
+  <div class="row">
+    <div class="col-md-4">
+      <center>
+        <a href="/techshopzinfo/"><i class="fa fa-file fa-5x"></i></a>
+        <h3>Lesson Plans</h3>
+        <p>Detailed lesson plans to teach <a href="/techshopzinfo/">a variety of topics</a>: from mobile development, to programming with Python and more.</p>
+      </center>
+    </div>
+
+    <div class="col-md-4">
+      <center>
+        <a href="/run-your-own-techshopz-in-a-box-playbook/"><i class="fa fa-book fa-5x"></i></a>
+        <h3>PlayBook</h3>
+        <p>Our step-by-step guide to running a workshop, full of helpful tips, pre-made documents, and common procedures.</p>
+      </center>
+    </div>
+
+    <div class="col-md-4">
+      <center>
+        <a href="/about"><i class="fa fa-heart fa-5x"></i></a>
+        <h3>Our Support</h3>
+        <p>A member of the TechGirlz team will work closely with you to be sure your workshop happens without a hitch.</p>
+      </center>
     </div>
   </div>
 
 <div class="spacing">&nbsp;</div>
-<hr />
-<div class="spacing">&nbsp;</div>
-<center><h1>TechShopz in a Box Include:</h1></center>
-<div class="spacing">&nbsp;</div>
-
-<div class="row">
-
-<div class="col-md-4">
 <center>
-<a href="/techshopzinfo/"><i class="fa fa-file fa-5x"></i></a>
-<h3>Lesson Plans</h3>
-<p>Detailed lesson plans to teach <a href="/techshopzinfo/">a variety of topics</a>: from mobile development, to programming with Python and more.</p>
+ <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784">
+  <div class="btn">
+    Access Workshop Plans
+  </div>
+ </a>
 </center>
 </div>
 
-<div class="col-md-4">
-<center>
-<a href="/run-your-own-techshopz-in-a-box-playbook/"><i class="fa fa-book fa-5x"></i></a>
-<h3>PlayBook</h3>
-<p>Our step-by-step guide to running a workshop, full of helpful tips, pre-made documents, and common procedures.</p>
-</center>
-</div>
-
-<div class="col-md-4">
-<center>
-<a href="/about"><i class="fa fa-heart fa-5x"></i></a>
-<h3>Our Support</h3>
-<p>A member of the TechGirlz team will work closely with you to be sure your workshop happens without a hitch.</p>
-</center>
-</div>
-</div>
-
-<div class="spacing">&nbsp;</div>
-<hr />
-<div class="spacing">&nbsp;</div>
-
-<div class="row">
-  <div class="col-md-12">
-    <center><h1>Workshop Topic Categories</h1></center>
+<div class="banner">
+  <div class="revolution">
+    <center><h1>Browse our Lesson Plan Library</h1></center>
   </div>
 </div>
 
-<div class="spacing">&nbsp;</div>
-
+<div class="page-content" id="page-content">
 <div class="topics">
 <div class="row">
   <div class="col-md-2">
@@ -153,27 +174,12 @@ Template Name: TechShopz In A Box
   </div>
 </div>
 </div>
-
-<div class="spacing">&nbsp;</div>
-
-<center>
-  <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784">
-  <div class="btn">
-  <p>
-    Request Workshop Plans
-  </p>
 </div>
-</a>
-</center>
 
-<div class="spacing">&nbsp;</div>
-
-<hr />
-
-<div class="spacing">&nbsp;</div>
-<center><h1>TechShopz In a Box™ Users</h1></center>
-
-</div>
+<div class="banner">
+  <div class="blogroll">
+    <center><h1>TechShopz in a Box™ Users</h1></center>
+  </div>
 
 <div id="scroll-container-tib">
   <div class="scroll">

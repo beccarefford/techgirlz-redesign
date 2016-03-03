@@ -243,7 +243,7 @@ Home Page Elements
 	padding-top: 37px;
 }
 
-.btn {
+#home-blogroll .btn {
 	padding: 10px 14px;
 	margin-bottom: 0;
 	line-height: 20px;
@@ -260,7 +260,7 @@ Home Page Elements
 	float: right;
 }
 
-.btn:hover {
+#home-blogroll .btn:hover {
 	color:#ffffff!important;
 	background-color: #C43D64;
 }
@@ -439,7 +439,7 @@ Pages
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	padding: 0px 10px 10px 10px;
+	padding: 0px 0px 10px 0px;
 }
 
 #page-content h3 {
@@ -452,28 +452,28 @@ Pages
 }
 
 #page-content p {
-	font-size: 19px;
+	font-size: 17.5px;
 	font-family: Open Sans;
 	font-weight: 300;
 }
 
 #page-content span {
 	font-family: Open Sans;
-	font-size: 15px;
+	font-size: 17.5px;
 	font-weight: bold;
 	color: #4AA983;
 	text-transform: uppercase;
 }
 
 #topics p {
-	font-size: 19px;
+	font-size: 17.5px;
 	font-family: Open Sans;
 	font-weight: 300;
 }
 
 #page-content ol li {
-	font-size: 18px;
-	font-family: Lora;
+	font-size: 17.5px;
+	font-family: Open Sans;
 }
 
 #page-content p strong {
@@ -481,8 +481,8 @@ Pages
 }
 
 #page-content ul li {
-	font-size: 18px;
-	font-family: Lora;
+	font-size: 17.5px;
+	font-family: Open Sans;
 	margin: 4px 0;
 }
 
@@ -497,15 +497,47 @@ Pages
 }
 
 #page-content a {
-	font-size: 18px;
-	font-family: Lora;
+	font-size: 17.5px;
+	font-family: Open Sans;
 	color: #e06287;
-	font-weight: bold;
+	font-weight: 700;
 	text-decoration: none;
 }
 
 #page-content a:hover {
 	text-decoration: none;
+}
+
+.btn {
+	padding: 10px 14px;
+	margin-bottom: 0;
+	line-height: 20px;
+	background: #e06287;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-transform: none;
+	font-weight: 700;
+	color: #ffffff;
+	font-family: Open Sans;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+
+.btn:hover {
+	color:#ffffff!important;
+	background-color: #C43D64;
+}
+
+#page-content .quote h1 {
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 300;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-transform: none;
+	color: #333333;
+	line-height: 1.4em;
 }
 
 .staff-page-landing {
@@ -622,8 +654,9 @@ Pages
 
 .row #rating strong {
 	padding: 0px 10px 0px 10px;
-	font-family: Lora;
-	font-weight: 18px;
+	font-family: Open Sans;
+	font-weight: 700;
+	font-weight: 17.5px;
 	font-weight: bold;
 }
 
@@ -637,10 +670,10 @@ Pages
 }
 
 #home-content a {
-	font-size: 18px;
-	font-family: Lora;
+	font-size: 17.5px;
+	font-family: Open Sans;
 	color: #e06287;
-	font-weight: bold;
+	font-weight: 700;
 	text-decoration: none;
 }
 
@@ -762,15 +795,15 @@ Pages
 
 .event-page-content a {
 	font-family: Open Sans !important;
-	font-size: 13px !important;
-	font-weight: bold !important;
+	font-size: 17.5px !important;
+	font-weight: 700 !important;
 	text-transform: uppercase;
 }
 
 .event-page-content .col-md-6 a {
-	font-family: Lora;
+	font-family: Open Sans;
 	color: #e06287;
-	font-size: 12px;
+	font-size: 17.5px;
 }
 
 .sticky {

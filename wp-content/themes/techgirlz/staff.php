@@ -67,17 +67,12 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
   </div>
 </div>
 
-<?php
-/*--------------------------------------------------------------
-Team Section
---------------------------------------------------------------*/
-?>
+  <div class="banner">
+    <div class="blogroll">
+      <center><h1>Our Team</h1></center>
+    </div>
 
-<div class="page-content" id="page-content">
-
-  <center><h1>Our Team</h1></center>
-  <hr />
-
+<div class="staff-page-content" id="page-content">
 <?php
     $loop_staff = new WP_Query(array(
     'post_type' => 'team',
@@ -142,18 +137,19 @@ $current_post = $loop_staff->current_post + 1;
       $current_post++;
       endwhile; ?>
 
-</div>
-
 <?php
 /*--------------------------------------------------------------
 Sponsors & Partners Section
 --------------------------------------------------------------*/
 ?>
-
-<div class="page-content" id="page-content">
-<center><h1>Sponsors & Partners</h1></center>
-<hr />
 </div>
+
+  <div class="banner">
+    <div class="revolution">
+      <center><h1>Sponsors & Partners</h1></center>
+    </div>
+    
+<div class="spacing">&nbsp;</div>
 
 <div id="scroll-container-tib">
   <div class="scroll">

@@ -127,6 +127,12 @@
     </div>
 
     <?php endwhile; ?>
+
+    <a href="/blog">
+      <div class="btn">
+        Read More &nbsp; <i class="fa fa-arrow-right"></i>
+      </div>
+    </a>
   </div>
 </div>
 

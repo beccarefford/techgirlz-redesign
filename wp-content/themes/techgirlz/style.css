@@ -153,6 +153,7 @@ Home Page Elements
 	padding: 35px 0 30px 0;
 	font-family: Open Sans;
 	text-transform: uppercase;
+	height: 90px;
 	color: #ffffff;
 }
 
@@ -240,6 +241,28 @@ Home Page Elements
 	line-height: 1.7em;
 	padding-bottom: 30px;
 	padding-top: 37px;
+}
+
+.btn {
+	padding: 10px 14px;
+	margin-bottom: 0;
+	line-height: 20px;
+	background: #e06287;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	text-transform: none;
+	font-weight: 700;
+	color: #ffffff;
+	font-family: Open Sans;
+	font-size: 13px;
+	text-transform: uppercase;
+	float: right;
+}
+
+.btn:hover {
+	color:#ffffff!important;
+	background-color: #C43D64;
 }
 
 article,
@@ -628,43 +651,6 @@ Pages
 
 #home-content a:hover i {
 	color: #2E936A;
-}
-
-.btn {
-  -webkit-border-radius: 9;
-  -moz-border-radius: 9;
-  border-radius: 9px;
-	height: 80px;
-	width: 350px;
-  background: #4AA983;
-  padding: 30px 30px 30px 30px;
-}
-
-.btn p {
-	text-decoration: none;
-	font-family: Open Sans;
-	font-size: 13px;
-	font-weight: bold;
-	text-align: center;
-  color: #ffffff;
-	padding-left: 50%;
-	padding-right: 50%;
-	margin: 20px 20px 20px 20px;
-}
-
-.btn:hover {
-  background: #2E936A;
-  text-decoration: none;
-	color: #ffffff;
-}
-
-.btn-hover p {
-	text-decoration: none;
-	font-family: Open Sans;
-	font-size: 13px;
-	font-weight: bold;
-	text-align: center;
-  color: #ffffff;
 }
 
 #scroll-container-tib {
@@ -1792,7 +1778,7 @@ object {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #e37388!important;
+    color: #e06287!important;
     font-size: 15px!important;
 		font-weight: 600!important;
 		margin-top: -10px!important;
@@ -1808,6 +1794,10 @@ object {
 	font-family:'Open Sans'!important;
 	font-size: 13px!important;
 	padding: 20px 20px!important;
+}
+
+.navbar-collapse.in {
+    overflow-y: none!important;
 }
 
 ul.dropdown-menu {

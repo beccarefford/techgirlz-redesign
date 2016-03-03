@@ -180,6 +180,8 @@ Template Name: TechShopz In A Box
   <div class="blogroll">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
+  
+<div class="spacing">&nbsp;</div>
 
 <div id="scroll-container-tib">
   <div class="scroll">

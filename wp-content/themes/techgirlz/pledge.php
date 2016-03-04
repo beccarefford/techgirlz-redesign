@@ -58,9 +58,7 @@ Template Name: Pledge Page
   <center>
     <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784">
     <div class="btn">
-    <p>
       I Pledge to Teach 15 Girls
-    </p>
   </div>
   </a>
   </center>

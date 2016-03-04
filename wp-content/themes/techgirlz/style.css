@@ -297,6 +297,10 @@ Pages
 	margin-top: 15px;
 }
 
+.blog-image img {
+	border-radius: 10px;
+}
+
 .blog-content {
 	display: block;
 	padding: 8% 10%;

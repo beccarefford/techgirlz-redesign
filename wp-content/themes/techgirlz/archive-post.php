@@ -42,7 +42,9 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 
 			<div class="row">
 			<div class="col-md-5">
-				<?php echo get_the_post_thumbnail($post->ID, 'full'); ?>
+				<div class="blog-image">
+					<?php echo get_the_post_thumbnail($post->ID, 'full'); ?>
+				</div>
 			</div>
 
 			<div class="col-md-7">

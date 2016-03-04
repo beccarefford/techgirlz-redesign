@@ -292,15 +292,14 @@ Pages
 	padding: 50px;
 }
 
-.archive-blog-content .row .myButton {
+.archive-blog-content .row .btn {
 	float: right;
-	height: 60px;
-	margin: 15px 0 15px 0;
+	margin-top: 15px;
 }
 
 .blog-content {
 	display: block;
-	margin:80px 250px 50px 250px;
+	padding: 8% 10%;
 }
 
 .pagination-forward {

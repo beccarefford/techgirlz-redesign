@@ -41,8 +41,11 @@ url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
 			?>
 
 			<div class="row">
-			<div class="col-md-12">
+			<div class="col-md-5">
+				<?php echo get_the_post_thumbnail($post->ID, 'full'); ?>
+			</div>
 
+			<div class="col-md-7">
 			<a href="<?php the_permalink(); ?>"><h2><?php echo the_title(); ?></h2></a>
 			<?php
 			$content = get_the_content();

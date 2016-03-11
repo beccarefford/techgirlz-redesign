@@ -1864,6 +1864,14 @@ ul.dropdown-menu {
 		text-transform: uppercase;
 		padding: 11% 11%;
 	}
+
+	#page-content .quote h1 {
+		font-size: 20px;
+	}
+
+	#page-content .quote em {
+		margin-bottom: 20px;
+	}
 }
 
 @media (max-width: 768px) {

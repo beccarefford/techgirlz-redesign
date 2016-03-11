@@ -785,6 +785,12 @@ Pages
 	padding: 8% 10%;
 }
 
+.event-page-content span {
+	font-family: Open Sans;
+	font-size: 13.5px;
+	font-style: normal;
+}
+
 .event-page-content a {
 	font-family: Open Sans !important;
 	font-size: 17.5px !important;

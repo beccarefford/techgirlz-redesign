@@ -136,4 +136,8 @@
   </div>
 </div>
 
+<div class="spacing">
+  &nbsp;
+</div>
+
 <?php get_footer(); ?>

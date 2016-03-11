@@ -53,7 +53,7 @@ Home Page Elements
 	font-weight: 600;
 	line-height: 1.22;
 	letter-spacing: 0;
-	margin: 13% 0 0 11%;
+	margin: 13% 11% 11% 11%;
 	font-family: Lora;
 	color: #ffffff;
 }
@@ -596,7 +596,7 @@ Pages
 	-o-border-radius: 150px;
 	border-radius: 150%;
 	border: 9px solid #e06287;
-	margin: 55px 40%;
+	margin: 55px 40% 0 40%;
 	z-index: -1;
 }
 
@@ -770,22 +770,13 @@ Pages
 	font-weight: bold;
 	color: #97DD61;
 	text-transform: uppercase;
-	padding: 0px 10px 0px 10px;
-}
-
-#job-title {
-	font-family: Lora;
-	font-size: 18px;
-	font-style: italic;
-	margin: 0px 10px 0px 10px;
-	color: #4AA983;
 }
 
 #job-title-staff {
 	font-family: Lora;
 	font-size: 18px;
 	font-style: italic;
-	margin: 0px 10px 9px 10px;
+	margin: 5px 0px 5px 0px;
 	color: #4AA983;
 }
 
@@ -1856,9 +1847,36 @@ ul.dropdown-menu {
     float: right;
 }
 
+@media (max-width: 500px) {
+	.banner .revolution h1 {
+		font-size: 13px;
+	}
+
+	.page-landing h1 {
+		font-family: Open Sans;
+		color: #ffffff;
+		font-size: 30px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 11% 11%;
+	}
+}
+
 @media (max-width: 768px) {
 	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
     float: left;
+	}
+	.home-landing h1 {
+		font-size: 40px;
+	}
+
+	.page-landing h1 {
+		font-family: Open Sans;
+		color: #ffffff;
+		font-size: 35px;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding: 11% 11%;
 	}
 }
 

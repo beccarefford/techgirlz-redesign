@@ -104,15 +104,17 @@ $current_post = $loop_staff->current_post + 1;
       <!-- Inner Row for image/description -->
         <div class="row">
           <!-- Image for speaker -->
-          <div class="col-md-3">
-                <a href="<?php the_permalink(); ?>">
-                  <div class="staff-circle-small">
-                    <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
+          <center>
+            <div class="col-md-4">
+            <a href="<?php the_permalink(); ?>">
+              <div class="staff-circle-small">
+                <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
               </div>
           </div>
+                  </center>
 
           <!-- Descriptive content for speaker -->
-          <div class="col-md-9">
+          <div class="col-md-8">
             <a href="<?php the_permalink() ?>">
               <div id="staff-name">
                 <h3><?php the_title(); ?></h3></a>
@@ -148,7 +150,7 @@ Sponsors & Partners Section
     <div class="revolution">
       <center><h1>Sponsors & Partners</h1></center>
     </div>
-    
+
 <div class="spacing">&nbsp;</div>
 
 <div id="scroll-container-tib">

@@ -855,7 +855,11 @@ Pages
 }
 
 .tribe-events-user-recurrence-toggle span {
-	display: none;
+	display: none!important;
+}
+
+.tribe-events-sub-nav li a {
+	background: #ffffff;
 }
 
 .event-page-content span {

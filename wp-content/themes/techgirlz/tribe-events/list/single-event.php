@@ -32,12 +32,12 @@ $organizer = tribe_get_organizer();
 
 <!-- Event Image -->
 <div class="row">
-<div class="col-md-4">
+<div class="col-md-5">
 
 	<?php echo tribe_event_featured_image( null, 'full' ) ?>
 </div>
 
-<div class="col-md-8">
+<div class="col-md-7">
 		<!-- Event Title -->
 		<?php do_action( 'tribe_events_before_the_event_title' ) ?>
 		<h2 class="tribe-events-list-event-title">

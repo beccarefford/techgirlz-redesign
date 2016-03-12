@@ -13,7 +13,7 @@ About Section
 ?>
 
 <div class="page-landing" style="background-image:
-url('/wp-content/uploads/2016/01/12906601514_aeb6bcca1a_o.jpg')">
+url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
   <div class="topArea">
     <h1><?php the_title(); ?></h1>
   </div>

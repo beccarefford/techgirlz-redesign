@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
   <div class="home-landing" style="background-image:
-    url('/wp-content/uploads/2016/02/TechGirlzHomepage.jpg')">
+    url('/wp-content/uploads/2016/03/TechGirlzHomepage-min.jpg')">
     <div class="topArea">
       <div class="row">
         <div class="col-md-6">

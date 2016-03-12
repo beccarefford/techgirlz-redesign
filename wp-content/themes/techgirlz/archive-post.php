@@ -43,7 +43,9 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 			<div class="row">
 			<div class="col-md-5">
 				<div class="blog-image">
+					<a href="<?php the_permalink(); ?>">
 					<?php echo get_the_post_thumbnail($post->ID, 'full'); ?>
+				</a>
 				</div>
 			</div>
 

@@ -24,19 +24,18 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 
 <div class="archive-blog-content" id="page-content">
 
-            <?php
-            while (have_posts()) : the_post();
-            $page_tags = get_post_meta($post->ID, 'tags', true); ?>
-            <div class="row">
-      			<div class="col-md-5">
-      				<div class="blog-image">
-      					<a href="<?php the_permalink(); ?>">
-      					<?php echo get_the_post_thumbnail($post->ID, 'full'); ?>
-      				</a>
-      				</div>
-      			</div>
+  <?php while (have_posts()) : the_post();
+    $page_tags = get_post_meta($post->ID, 'tags', true); ?>
+      <div class="row">
+      	<div class="col-md-5">
+      		<div class="blog-image">
+      			<a href="<?php the_permalink(); ?>">
+      				<?php echo get_the_post_thumbnail($post->ID, 'full'); ?>
+      			</a>
+      		</div>
+      	</div>
 
-      			<div class="col-md-7">
+      	<div class="col-md-7">
       			<a href="<?php the_permalink(); ?>"><h2><?php echo the_title(); ?></h2></a>
       			<?php
       			$content = get_the_content();
@@ -44,7 +43,8 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
       			<p><?php echo wpse_custom_excerpts($content, 100, $permalink); ?></p>
       			<a href="<?php the_permalink(); ?>"><div class="btn">Read More</div></a>
             <?php endwhile;?>
-</div>
-</div>
-</div><!-- #content -->
+          </div>
+        </div>
+<!-- #content -->
 <?php get_footer(); ?>
+      </div>

@@ -58,9 +58,9 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 
       <p>
         <center>
-          <a href="http://twitter.com/techgirlzorg"><i class="fa fa-twitter fa-1x"></i></a>
-          <a href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-1x"></i></a>
-          <a href="mailto:info@techgirlz.org"><i class="fa fa-envelope fa-1x"></i></a>
+          <a href="http://twitter.com/techgirlzorg"><i class="fa fa-twitter fa-2x"></i></a>
+          <a href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-2x"></i></a>
+          <a href="mailto:info@techgirlz.org"><i class="fa fa-envelope fa-2x"></i></a>
         </center>
       </p>
     </div>

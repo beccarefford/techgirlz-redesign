@@ -854,6 +854,10 @@ Pages
 	font-size: 17.5px!important;
 }
 
+.tribe-events-user-recurrence-toggle span {
+	display: none;
+}
+
 .event-page-content span {
 	font-family: Open Sans;
 	font-size: 14px;

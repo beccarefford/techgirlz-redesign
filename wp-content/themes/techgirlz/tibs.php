@@ -11,10 +11,10 @@ Template Name: TechShopz In A Box
 </div>
 
 <div class="row">
-  <a href="/pledge-to-teach15-girls/">
+  <a href="/techshopzinfo">
     <div class="col-md-6 nopadding">
         <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
-          <h1>Pledge to #Teach15 &nbsp; <i class="fa fa-hand-paper-o"></i></h1>
+          <h1>Browse Topics &nbsp; <i class="fa fa-book"></i></h1>
         </div>
     </div>
   </a>
@@ -180,7 +180,7 @@ Template Name: TechShopz In A Box
   <div class="blogroll">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
-  
+
 <div class="spacing">&nbsp;</div>
 
 <div id="scroll-container-tib">

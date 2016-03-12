@@ -30,10 +30,7 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 	</div>
 </div>
 
-<div class="spacing">&nbsp;</div>
-<hr /></div>
-
-<div class="page-content" id="page-content">
+<div class="moreposts" id="page-content">
 
 		<?php
 		$wp_query = new WP_Query(array(

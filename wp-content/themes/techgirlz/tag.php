@@ -26,7 +26,7 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 
             <?php
             while (have_posts()) : the_post();
-            $page_tags = get_post_meta($post->ID, 'tags', true);
+            $page_tags = get_post_meta($post->ID, 'tags', true); ?>
             <div class="row">
       			<div class="col-md-5">
       				<div class="blog-image">

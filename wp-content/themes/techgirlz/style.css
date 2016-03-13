@@ -513,7 +513,7 @@ Pages
 }
 
 #page-content img {
-	margin: 30px 0 5px 0;
+	margin: 30px 30px 30px 0;
 	z-index: -1;
 	border-radius: 10px;
 }

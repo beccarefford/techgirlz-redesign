@@ -500,6 +500,13 @@ Pages
 	font-style: italic;
 }
 
+#page-content a em {
+	font-size: 18px;
+	font-family: Lora;
+	font-style: italic;
+	color: #e06287;
+}
+
 #page-content a {
 	font-size: 17.5px;
 	font-family: Open Sans;

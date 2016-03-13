@@ -24,7 +24,7 @@ Template Name: Workshop Topics
 
 <center>
 <h1>TechShopz in a Box™ Topics</h1>
-<p><a href="/techshopz-in-a-box">TechShopz in a Box™</a> are free lesson plans,
+<p><a href="/techshopz-in-a-box">TechShopz in a Box™</a> are free workshop plans,
   documents, and guides based on TechGirlz' tried-and-true workshops.
   They make it easy for anyone, anywhere to run a hands-on workshop for
   middle school girls. As a result of this program, the number of girls we've
@@ -744,7 +744,7 @@ Begin Topics
 <div class="spacing">&nbsp;</div>
 <center>
 <h2>See a Topic You Like?</h2>
-<a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784"><div class="myButton">Request Free Lesson Plan</div></a>
+<a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784"><div class="myButton">Request Free Workshop Plans</div></a>
 </div>
 </div>
 

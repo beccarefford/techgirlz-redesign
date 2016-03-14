@@ -87,7 +87,7 @@ Template Name: TechShopz In A Box
 
     <div class="col-md-4">
       <center>
-        <a href="/about"><i class="fa fa-heart fa-5x"></i></a>
+        <a href="/contact"><i class="fa fa-heart fa-5x"></i></a>
         <h3>Our Support</h3>
         <p>A member of the TechGirlz team will work closely with you to be sure your workshop happens without a hitch.</p>
       </center>

@@ -53,8 +53,9 @@ Home Page Elements
 	font-weight: 600;
 	line-height: 1.22;
 	letter-spacing: 0;
-	margin: 13% 3% 0 11%;
+	padding: 13% 0 0 11%;
 	font-family: Lora;
+	display: block;
 	color: #ffffff;
 }
 

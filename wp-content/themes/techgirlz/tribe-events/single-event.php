@@ -56,12 +56,12 @@ $event_id = get_the_ID();
 		<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 			<!-- Event featured image, but exclude link -->
 			<div class="row">
-      <div class="col-md-5">
+      <div class="col-md-5 col-xs-3">
         <?php echo tribe_event_featured_image( $event_id, 'full', false ); ?>
       </div>
 
 			<!-- Event content -->
-      <div class="col-md-7">
+      <div class="col-md-7 col-xs-9">
 			<?php do_action( 'tribe_events_single_event_before_the_content' ) ?>
 			<div class="tribe-events-single-event-description tribe-events-content">
 				<?php the_content(); ?>

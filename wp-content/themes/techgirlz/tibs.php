@@ -114,7 +114,7 @@ Template Name: TechShopz In A Box
 <div class="topics">
 <div class="row">
   <div class="col-md-2">
-    <a href="/techshop-topics">
+    <a href="/techshopzinfo">
       <center>
       <div class="anywhere-circle">
         <img alt="Web Development TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-15-at-1.35.09-PM.png">
@@ -124,7 +124,7 @@ Template Name: TechShopz In A Box
   </div>
 
   <div class="col-md-2">
-    <a href="/techshop-topics">
+    <a href="/techshopzinfo">
       <center>
       <div class="anywhere-circle">
         <img alt="Game Design TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.08.39-AM.png">
@@ -134,7 +134,7 @@ Template Name: TechShopz In A Box
   </div>
 
   <div class="col-md-2">
-    <a href="/techshop-topics">
+    <a href="/techshopzinfo">
       <center>
       <div class="anywhere-circle">
         <img alt="Mobile Apps TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-15-at-1.39.34-PM.png">
@@ -144,7 +144,7 @@ Template Name: TechShopz In A Box
   </div>
 
   <div class="col-md-2">
-    <a href="/techshop-topics">
+    <a href="/techshopzinfo">
       <center>
       <div class="anywhere-circle">
         <img alt="Media Editing TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.20.20-AM.png">
@@ -154,7 +154,7 @@ Template Name: TechShopz In A Box
   </div>
 
   <div class="col-md-2">
-    <a href="/techshop-topics">
+    <a href="/techshopzinfo">
       <center>
       <div class="anywhere-circle">
         <img alt="Circuits & Hardware TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.26.49-AM.png">
@@ -164,7 +164,7 @@ Template Name: TechShopz In A Box
   </div>
 
   <div class="col-md-2">
-    <a href="/techshop-topics">
+    <a href="/techshopzinfo">
       <center>
       <div class="anywhere-circle">
         <img alt="Robotics TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.30.41-AM.png">

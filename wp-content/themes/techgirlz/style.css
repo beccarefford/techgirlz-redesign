@@ -17,6 +17,7 @@ Text Domain: techgirlz
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
+
 html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
@@ -140,6 +141,23 @@ Home Page Elements
 	color: #ffffff;
 }
 
+#home-content a {
+	font-size: 17.5px;
+	font-family: Open Sans;
+	color: #e06287;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+#home-content a i {
+	color: #4AA983;
+	padding: 15px 10px 0px 10px;
+}
+
+#home-content a:hover i {
+	color: #2E936A;
+}
+
 .banner .revolution {
 	width: 100%;
 	height: 90px;
@@ -158,6 +176,11 @@ Home Page Elements
 	color: #ffffff;
 }
 
+#home-cta {
+	display: block;
+	text-align: center;
+}
+
 #home-cta .row {
 	padding-top: 5%;
 	padding-left: 10%;
@@ -173,11 +196,6 @@ Home Page Elements
 	text-transform: uppercase;
 	color: #000;
 	padding-bottom: 25px;
-}
-
-#home-cta {
-	display: block;
-	text-align: center;
 }
 
 .banner .blogroll {
@@ -275,6 +293,7 @@ figure,
 /*--------------------------------------------------------------
 Pages
 --------------------------------------------------------------*/
+
 .site-content {
 	display:block;
 }
@@ -283,46 +302,14 @@ Pages
 	padding: 8% 10%;
 }
 
-.archive-blog-content {
+.page-landing {
+	margin-top: 90px;
+	width: 100%;
+	height: 240px;
+	z-index: -1;
+	background-repeat:no-repeat;
+	background-size: cover;
 	display: block;
-	padding: 8% 10%;
-}
-
-.archive-blog-content .row {
-	display: block;
-	padding: 50px;
-}
-
-.archive-blog-content .row .btn {
-	float: right;
-	margin-top: 15px;
-}
-
-.blog-image img {
-	border-radius: 10px;
-	margin-top: 24px;
-	border: 4px solid #D7F069;
-}
-
-.blog-content {
-	display: block;
-	padding: 8% 10%;
-}
-
-.pagination-forward {
-	float: right;
-}
-
-.pagination-backward {
-	float: left;
-}
-
-.moreposts {
-	padding-top: 40px;
-}
-
-.staff-page-content {
-	padding: 8% 10%;
 }
 
 .page-landing h1 {
@@ -342,16 +329,6 @@ Pages
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
-}
-
-.page-landing {
-	margin-top: 90px;
-	width: 100%;
-	height: 240px;
-	z-index: -1;
-	background-repeat:no-repeat;
-	background-size: cover;
-	display: block;
 }
 
 .page-landing img {
@@ -384,52 +361,13 @@ Pages
 	padding: 5px 0;
 }
 
-.columnBlogDeco {
-	background-color: #F9976D;
-	margin: none;
-	height: 60px;
-	font-family: 'Open Sans';
-	font-size: 13px;
-	text-transform: uppercase;
-	text-decoration: none;
-	text-align: center;
-	padding: 18px 0 30px 0;
-	color: rgba(255,255,255,0.8)
+.page-content a i {
+	color: #4AA983;
+	padding: 0px 10px 0px 10px;
 }
 
-.columnBlogDeco a {
-	color: rgba(255,255,255,0.7);
-	text-decoration: none;
-	font-family: 'Open Sans';
-	font-size: 18px;
-	font-weight:bold;
-	text-transform: uppercase;
-	padding: 0 10px 0 10px;
-}
-
-.columnBlogDeco a:hover {
-	color: rgba(255,255,255,0.9);
-	text-decoration: none;
-}
-
-.columnBlogDeco a:visited {
-	color: rgba(255,255,255,0.9);
-	text-decoration: none;
-}
-
-.columnBlogDeco a:active {
-	color: rgba(255,255,255,0.9);
-	text-decoration: none;
-}
-
-.columnBlogDeco a,
-.columnBlogDeco a:hover {
-	-webkit-transition: all .3s ease-out;
-	-moz-transition: all .3s ease-out;
-	-o-transition: all .3s ease-out;
-	-ms-transition: all .3s ease-out;
-	transition: all .3s ease-out;
-	text-decoration: none;
+.page-content a:hover i {
+	color: #2E936A;
 }
 
 #page-content h1 {
@@ -527,10 +465,15 @@ Pages
 	text-decoration: none;
 }
 
-#page-content img {
-	margin: 30px 30px 30px 0;
-	z-index: -1;
-	border-radius: 10px;
+#page-content .quote h1 {
+	font-family: Open Sans;
+	font-size: 30px;
+	font-weight: 300;
+	padding-left: 10%;
+	padding-right: 10%;
+	text-transform: none;
+	color: #333333;
+	line-height: 1.4em;
 }
 
 .btn {
@@ -554,15 +497,123 @@ Pages
 	background-color: #C43D64;
 }
 
-#page-content .quote h1 {
+.spacing {
+	margin: 25px 0 25px 0;
+}
+
+.row #rating i {
+	color: #4AA983;
+	padding: 0px 10px 0px 10px;
+}
+
+.row #rating p {
+	padding: 0px 10px 0px 10px;
+}
+
+.row #rating strong {
+	padding: 0px 10px 0px 10px;
 	font-family: Open Sans;
-	font-size: 30px;
-	font-weight: 300;
-	padding-left: 10%;
-	padding-right: 10%;
-	text-transform: none;
-	color: #333333;
-	line-height: 1.4em;
+	font-weight: 700;
+	font-weight: 17.5px;
+	font-weight: bold;
+}
+
+/*--------------------------------------------------------------
+Archive Blog Page
+--------------------------------------------------------------*/
+
+.columnBlogDeco {
+	background-color: #F9976D;
+	margin: none;
+	height: 60px;
+	font-family: 'Open Sans';
+	font-size: 13px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding: 18px 0 30px 0;
+	color: rgba(255,255,255,0.8)
+}
+
+.columnBlogDeco a {
+	color: rgba(255,255,255,0.7);
+	text-decoration: none;
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight:bold;
+	text-transform: uppercase;
+	padding: 0 10px 0 10px;
+}
+
+.columnBlogDeco a:hover {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+}
+
+.columnBlogDeco a:visited {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+}
+
+.columnBlogDeco a:active {
+	color: rgba(255,255,255,0.9);
+	text-decoration: none;
+}
+
+.columnBlogDeco a,
+.columnBlogDeco a:hover {
+	-webkit-transition: all .3s ease-out;
+	-moz-transition: all .3s ease-out;
+	-o-transition: all .3s ease-out;
+	-ms-transition: all .3s ease-out;
+	transition: all .3s ease-out;
+	text-decoration: none;
+}
+
+.archive-blog-content {
+	display: block;
+	padding: 8% 10%;
+}
+
+.archive-blog-content .row {
+	display: block;
+	padding: 50px;
+}
+
+.archive-blog-content .row .btn {
+	float: right;
+	margin-top: 15px;
+}
+
+.blog-image img {
+	border-radius: 10px;
+	margin-top: 24px;
+	border: 4px solid #D7F069;
+}
+
+.blog-content {
+	display: block;
+	padding: 8% 10%;
+}
+
+.pagination-forward {
+	float: right;
+}
+
+.pagination-backward {
+	float: left;
+}
+
+.moreposts {
+	padding-top: 40px;
+}
+
+/*--------------------------------------------------------------
+Staff Page Content
+--------------------------------------------------------------*/
+
+.staff-page-content {
+	padding: 8% 10%;
 }
 
 .staff-page-landing {
@@ -572,6 +623,14 @@ Pages
 	z-index: -1;
 	background-repeat:no-repeat;
 	background-size: cover;
+	display: block;
+}
+
+.staff-page-landing .topArea {
+	margin-top: 90px;
+	width: 100%;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.3);
 	display: block;
 }
 
@@ -590,25 +649,25 @@ Pages
 	display: block;
 }
 
-#job-title {
+#staff-name h3 {
+	font-family: Open Sans;
+	font-size: 22px;
+	font-weight: bold;
+	color: #97DD61;
+	text-transform: uppercase;
+}
+
+#job-title-staff {
 	font-family: Lora;
 	font-size: 18px;
 	font-style: italic;
-	margin: 0px 10px 0px 10px;
+	margin: 5px 0px 5px 0px;
 	color: #4AA983;
 }
 
 #staff-social-icons {
 	margin: 18px 0px 20px 10px;
 	align: center;
-}
-
-.staff-page-landing .topArea {
-	margin-top: 90px;
-	width: 100%;
-	height: 300px;
-	background-color: rgba(0, 0, 0, 0.3);
-	display: block;
 }
 
 .staff-circle img {
@@ -637,6 +696,16 @@ Pages
 	z-index: -1;
 }
 
+/*--------------------------------------------------------------
+Images
+--------------------------------------------------------------*/
+
+#page-content img {
+	margin: 30px 30px 30px 0;
+	z-index: -1;
+	border-radius: 10px;
+}
+
 .anywhere-circle img {
 	width: 150px;
 	height: 150px;
@@ -659,58 +728,15 @@ Pages
 	border-radius: 10px;
 }
 
-.spacing {
-	margin: 25px 0 25px 0;
-}
-
 .camp-images img {
 	width: 300px;
 	height: 350px;
 	padding: 10px 10px 10px 10px;
 }
 
-.row #rating i {
-	color: #4AA983;
-	padding: 0px 10px 0px 10px;
-}
-
-.row #rating p {
-	padding: 0px 10px 0px 10px;
-}
-
-.row #rating strong {
-	padding: 0px 10px 0px 10px;
-	font-family: Open Sans;
-	font-weight: 700;
-	font-weight: 17.5px;
-	font-weight: bold;
-}
-
-.page-content a i {
-	color: #4AA983;
-	padding: 0px 10px 0px 10px;
-}
-
-.page-content a:hover i {
-	color: #2E936A;
-}
-
-#home-content a {
-	font-size: 17.5px;
-	font-family: Open Sans;
-	color: #e06287;
-	font-weight: 700;
-	text-decoration: none;
-}
-
-#home-content a i {
-	color: #4AA983;
-	padding: 15px 10px 0px 10px;
-}
-
-#home-content a:hover i {
-	color: #2E936A;
-}
+/*--------------------------------------------------------------
+Scrolling Animation
+--------------------------------------------------------------*/
 
 #scroll-container-tib {
  width: 100%;
@@ -789,21 +815,10 @@ Pages
 
 }
 
-#staff-name h3 {
-	font-family: Open Sans;
-	font-size: 22px;
-	font-weight: bold;
-	color: #97DD61;
-	text-transform: uppercase;
-}
-
-#job-title-staff {
-	font-family: Lora;
-	font-size: 18px;
-	font-style: italic;
-	margin: 5px 0px 5px 0px;
-	color: #4AA983;
-}
+/*--------------------------------------------------------------
+Tribe Event Overrides
+Also see /tribe-events/list/~
+--------------------------------------------------------------*/
 
 .event-page-content {
 	display:block;
@@ -827,10 +842,6 @@ Pages
 	font-size:25px!important;
 	text-transform: uppercase!important;
 	color: #F9976D!important;
-}
-
-#tribe-events .tribe-events-button, .tribe-events-button {
-	background-color: #e06287!important;
 }
 
 .tribe-events-list .type-tribe_events h2>a {
@@ -887,6 +898,10 @@ Pages
 	font-family: Open Sans;
 	font-size: 14px;
 	font-style: normal;
+}
+
+#tribe-events .tribe-events-button, .tribe-events-button {
+	background-color: #e06287!important;
 }
 
 .tribe-events-list .tribe-events-event-image img, .tribe-events-single .tribe-events-event-image img, .tribe-events-tooltip .tribe-events-event-thumb img {
@@ -1622,15 +1637,14 @@ a:active {
 	.header-logo {display:none;}
 }
 
-@media screen and (min-width: 50em) {
-
+/* @media screen and (min-width: 50em) {
 	.menu-toggle {
 		display: none;
 	}
 	.main-navigation a ul {
 		display: block;
 	}
-}
+} */
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -1744,6 +1758,7 @@ a:active {
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+
 .widget {
 	margin: 0 0 1.5em;
 }
@@ -1756,6 +1771,7 @@ a:active {
 /*--------------------------------------------------------------
 ## Asides
 --------------------------------------------------------------*/
+
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
 	display: none;
@@ -1764,6 +1780,7 @@ a:active {
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+
 .comment-content a {
 	word-wrap: break-word;
 }
@@ -1775,6 +1792,7 @@ a:active {
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
+
 /* Globally hidden elements when Infinite Scroll is supported and in use. */
 .infinite-scroll .posts-navigation, /* Older / Newer Posts Navigation (always hidden) */
 .infinite-scroll.neverending .site-footer { /* Theme Footer (when set to scrolling) */
@@ -1789,6 +1807,7 @@ a:active {
 /*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
+
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
@@ -1952,6 +1971,10 @@ ul.dropdown-menu {
     float: right;
 }
 
+/*--------------------------------------------------------------
+Media Queries
+--------------------------------------------------------------*/
+
 @media (max-width: 500px) {
 	.banner .revolution h1 {
 		font-size: 13px;
@@ -2072,14 +2095,14 @@ ul.dropdown-menu {
     .navbar-fixed-top {
 		top: 0;
 		border-width: 0 0 1px;
-	}
+		}
     .navbar-collapse.collapse {
         display: none!important;
     }
     .navbar-nav {
         float: none!important;
 		margin-top: 7.5px;
-	}
+		}
 	.navbar-nav>li {
         float: none;
     }

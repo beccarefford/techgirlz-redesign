@@ -44,7 +44,7 @@
   <center>
   <a href="/techshopz-in-a-box/"><i class="fa fa-users fa-5x"></i></a>
   <h2>Teach A Workshop</h2>
-    <p>You have the expertise, we have the materials. Use our tried-and true lesson plans to run a TechGirlz workshop in your own town.</p>
+    <p>You have the expertise, we have the materials. Use our tried-and true workshop plans to run a TechGirlz workshop in your own town.</p>
   </center>
   </div>
 

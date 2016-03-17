@@ -40,7 +40,7 @@ Template Name: TechShopz In A Box
       <p>5 years ago, TechGirlz started with a singular vision: to change the way middle school girls think about technology through free, hands-on workshops. The workshops caught on quickly - within a year, our events were getting booked solid, with waitlists reaching two, sometimes three, times the amount of seats available. We needed more instructors willing to teach our girls.</p>
 
     <h2>TechShopz In A Box™ Are Born</h2>
-      <p>So we decided to open source our lesson plans, documents, and procedures, calling these free materials TechShopz in a Box™. This allowed anyone, anywhere to run our workshops. As a result of this effort, the number of girls we've reached has more than tripled - and with your help, we can make that number grow.</p>
+      <p>So we decided to open source our workshop plans, documents, and procedures, calling these free materials TechShopz in a Box™. This allowed anyone, anywhere to run our workshops. As a result of this effort, the number of girls we've reached has more than tripled - and with your help, we can make that number grow.</p>
   </div>
 </div>
 </div>
@@ -72,8 +72,8 @@ Template Name: TechShopz In A Box
     <div class="col-md-4">
       <center>
         <a href="/techshopzinfo/"><i class="fa fa-file fa-5x"></i></a>
-        <h3>Lesson Plans</h3>
-        <p>Detailed lesson plans to teach <a href="/techshopzinfo/">a variety of topics</a>: from mobile development, to programming with Python and more.</p>
+        <h3>Workshop Plans</h3>
+        <p>Detailed workshop plans to teach <a href="/techshopzinfo/">a variety of topics</a>: from mobile development, to programming with Python and more.</p>
       </center>
     </div>
 

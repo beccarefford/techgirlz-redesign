@@ -71,24 +71,24 @@ Template Name: TechShopz In A Box
   <div class="row">
     <div class="col-md-4">
       <center>
-        <a href="/techshopzinfo/"><i class="fa fa-file fa-5x"></i></a>
-        <h3>Workshop Plans</h3>
+        <a href="/techshopzinfo/"><i class="fa fa-file fa-5x"></i>
+        <h3>Workshop Plans</h3></a>
         <p>Detailed workshop plans to teach <a href="/techshopzinfo/">a variety of topics</a>: from mobile development, to programming with Python and more.</p>
       </center>
     </div>
 
     <div class="col-md-4">
       <center>
-        <a href="/run-your-own-techshopz-in-a-box-playbook/"><i class="fa fa-book fa-5x"></i></a>
-        <h3>PlayBook</h3>
+        <a href="/run-your-own-techshopz-in-a-box-playbook/"><i class="fa fa-book fa-5x"></i>
+        <h3>PlayBook</h3></a>
         <p>Our step-by-step guide to running a workshop, full of helpful tips, pre-made documents, and common procedures.</p>
       </center>
     </div>
 
     <div class="col-md-4">
       <center>
-        <a href="/contact"><i class="fa fa-heart fa-5x"></i></a>
-        <h3>Our Support</h3>
+        <a href="/contact"><i class="fa fa-heart fa-5x"></i>
+        <h3>Our Support</h3></a>
         <p>A member of the TechGirlz team will work closely with you to be sure your workshop happens without a hitch.</p>
       </center>
     </div>

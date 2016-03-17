@@ -53,7 +53,7 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 			<div class="col-md-7">
 			<a href="<?php the_permalink(); ?>"><h2><?php echo the_title(); ?></h2></a>
 			<p>
-				<em>Posted on: <?php $pfx_date = get_the_date( $format, $post_id ); echo $pfx_date; ?></em>
+				<em><?php $pfx_date = get_the_date( $format, $post_id ); echo $pfx_date; ?></em>
 			</p>
 			<?php
 			$content = get_the_content();

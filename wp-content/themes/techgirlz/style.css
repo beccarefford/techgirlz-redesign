@@ -54,10 +54,17 @@ Home Page Elements
 	font-weight: 600;
 	line-height: 1.22;
 	letter-spacing: 0;
-	padding: 13% 0 0 11%;
+	/* padding: 13% 0 0 11%; */
 	font-family: Lora;
 	display: block;
 	color: #ffffff;
+	box-sizing: border-box;
+	position: relative;
+	width: 100%;
+	float: left;
+	padding: 2.08333%;
+	padding-top: 15%;
+	padding-left: 8%;
 }
 
 .columnDonateTime {
@@ -2008,7 +2015,7 @@ Media Queries
     float: left;
 	}
 	.home-landing h1 {
-		font-size: 50px;
+		font-size: 40px;
 	}
 
 	.page-landing h1 {

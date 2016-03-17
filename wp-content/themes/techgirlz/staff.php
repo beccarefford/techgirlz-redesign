@@ -124,6 +124,7 @@ $current_post = $loop_staff->current_post + 1;
             $excerpt = get_the_excerpt();
             $permalink = get_permalink(); ?>
               <p><?php echo wpse_custom_excerpts($excerpt, 40, $permalink); ?></p>
+              <a href="<?php the_permalink(); ?>">Read More ></a>
             <!-- End of col-10 -->
            </div>
           <!-- End of inner row -->

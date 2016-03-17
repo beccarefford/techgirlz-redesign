@@ -119,12 +119,12 @@ $current_post = $loop_staff->current_post + 1;
               <div id="staff-name">
                 <h3><?php the_title(); ?></h3></a>
               </div>
-              <div id="job-title-staff"><?php the_field('job_title'); ?></div>
+              <div id="job-title"><?php the_field('job_title'); ?></div>
             <?php
             $excerpt = get_the_excerpt();
             $permalink = get_permalink(); ?>
-              <p><?php echo wpse_custom_excerpts($excerpt, 40, $permalink); ?></p>
-              <a href="<?php the_permalink(); ?>">Read More ></a>
+              <p><?php echo wpse_custom_excerpts($excerpt, 40, $permalink); ?><a href="<?php the_permalink(); ?>">
+                <br /><big><big>»</big></big></a></p>
             <!-- End of col-10 -->
            </div>
           <!-- End of inner row -->

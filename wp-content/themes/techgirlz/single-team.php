@@ -38,16 +38,16 @@
 
         <div id="staff-social-icons">
           <?php if( get_field('twitter') ): ?>
-            &nbsp; <a href="<?php the_field('twitter');?>"><i class="fa fa-twitter-square fa-2x"></i></a> &nbsp;
+            <a href="<?php the_field('twitter');?>"><i class="fa fa-twitter-square fa-2x"></i></a>
           <?php endif; ?>
 
           <?php if( get_field('facebook') ): ?>
-            &nbsp; <a href="<?php the_field('facebook');?>"><i class="fa fa-facebook-square fa-2x"></i></a> &nbsp;
+          <a href="<?php the_field('facebook');?>"><i class="fa fa-facebook-square fa-2x"></i></a>
           <?php endif; ?>
 
 
           <?php if( get_field('linkedin') ): ?>
-            &nbsp; <a href="<?php the_field('linkedin');?>"><i class="fa fa-linkedin-square fa-2x"></i></a> &nbsp;
+            <a href="<?php the_field('linkedin');?>"><i class="fa fa-linkedin-square fa-2x"></i></a>
           <?php endif; ?>
         </div>
       </div>

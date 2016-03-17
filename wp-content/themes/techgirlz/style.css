@@ -28,10 +28,6 @@ body {
 	padding: 0;
 }
 
-label {
-    display: none;
-}
-
 /*--------------------------------------------------------------
 Home Page Elements
 --------------------------------------------------------------*/
@@ -661,7 +657,7 @@ Staff Page Content
 	text-transform: uppercase;
 }
 
-#job-title-staff {
+#job-title {
 	font-family: Lora;
 	font-size: 18px;
 	font-style: italic;
@@ -670,7 +666,7 @@ Staff Page Content
 }
 
 #staff-social-icons {
-	margin: 18px 0px 20px 10px;
+	margin: 18px 0px 20px 0px;
 	align: center;
 }
 

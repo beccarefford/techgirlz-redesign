@@ -60,11 +60,11 @@ Home Page Elements
 	color: #ffffff;
 	box-sizing: border-box;
 	position: relative;
+	float:left;
 	width: 100%;
-	float: left;
-	padding: 2.08333%;
-	padding-top: 15%;
+	padding-top: 8%;
 	padding-left: 8%;
+	padding-right: 20%;
 }
 
 .columnDonateTime {
@@ -2029,6 +2029,7 @@ Media Queries
 }
 
 @media (max-width: 900px) {
+
     .navbar-header {
         float: none;
 				height: 90px!important;
@@ -2090,6 +2091,15 @@ Media Queries
     .navbar-header {
         float: none;
     }
+
+		.home-landing h1 {
+			font-size: 40px;
+			padding-top: 20%;
+			text-align: center;
+			padding-left: 8%;
+			padding-right: 8%;
+		}
+
     .navbar-left,.navbar-right {
         float: none !important;
     }

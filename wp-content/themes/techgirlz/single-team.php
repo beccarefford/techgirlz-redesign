@@ -23,10 +23,6 @@
 
   <div class="page-content" id="page-content">
 
-    <p>
-      <a href="/about">« Back to About Page</a>
-    </p>
-
     <div class="row">
       <div class="col-md-4">
 
@@ -56,6 +52,10 @@
         <p><?php echo the_content(); ?></p>
       </div>
     </div>
+
+    <p>
+      <a href="/about">« Back to About Page</a>
+    </p>
   </div>
 
 <?php endwhile; ?>

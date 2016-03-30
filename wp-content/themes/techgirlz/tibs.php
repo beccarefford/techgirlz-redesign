@@ -45,23 +45,6 @@ Template Name: TechShopz In A Box
 </div>
 </div>
 
-  <div class="banner">
-    <div class="revolution">
-      <center><h1>It's Easy and Rewarding</h1></center>
-    </div>
-  </div>
-
-<div class="page-content" id="page-content">
-  <div class="quote">
-    <h1><i class="fa fa-quote-left fa-2x"></i>
-      <br>Having the TechGirlz program means that everything is already set
-      out for you so you don't have to create anything from scratch. They have
-      made this program so “plug-and-play” that anyone can go from zero to hero
-      with very little time or effort.
-    <br><em style="float: right">- Melody Zacharias</em></h1>
-  </div>
-</div>
-
 <div class="banner">
   <div class="blogroll">
     <center><h1>TechShopz in a Box™ Include:</h1></center>
@@ -178,6 +161,23 @@ Template Name: TechShopz In A Box
 
 <div class="banner">
   <div class="blogroll">
+    <center><h1>It's Easy and Rewarding</h1></center>
+  </div>
+</div>
+
+<div class="page-content" id="page-content">
+<div class="quote">
+  <h1><i class="fa fa-quote-left fa-2x"></i>
+    <br>Having the TechGirlz program means that everything is already set
+    out for you so you don't have to create anything from scratch. They have
+    made this program so “plug-and-play” that anyone can go from zero to hero
+    with very little time or effort.
+  <br><em style="float: right">- Melody Zacharias</em></h1>
+</div>
+</div>
+
+<div class="banner">
+  <div class="revolution">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
 

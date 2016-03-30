@@ -124,7 +124,9 @@ $current_post = $loop_topic->current_post + 1;
       endwhile; ?>
 
 <div class="spacing">&nbsp;</div>
-<hr />
+<div class="spacing">&nbsp;</div>
+<div class="spacing">&nbsp;</div>
+
 <center>
 <h2>See a Topic You Like?</h2>
 <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784"><div class="myButton">Request Free Workshop Plans</div></a>

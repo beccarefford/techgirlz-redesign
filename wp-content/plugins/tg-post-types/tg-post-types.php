@@ -44,6 +44,46 @@ function register_team_post_type()
 }
 add_action('init', 'register_team_post_type');
 
+
+function register_topic_post_type()
+{
+    $labels = array(
+        "name" => "Topic",
+        "singular_name" => "Topic",
+        "menu_name" => "Topics",
+        "all_items" => "All Topics",
+        "add_new" => "Add New",
+        "add_new_item" => "Add New Topic",
+        "edit" => "Edit",
+        "edit_item" => "Edit Topic",
+        "new_item" => "New Topic",
+        "view" => "View",
+        "view_item" => "View Topic",
+        "search_items" => "Search Topics",
+        "not_found" => "No Topics Found",
+        "not_found_in_trash" => "No Topics found in Trash",
+    );
+
+    $args = Array(
+        "labels" => $labels,
+        "description" => "TechShopz in a Box Topics",
+        "public" => true,
+        "show_ui" => true,
+        "has_archive" => true,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array("slug" => "topic", "with_front" => true),
+        "query_var" => true,
+        "supports" => array("title", "editor", "excerpt", "revisions", "thumbnail", "author", "tags"),
+    );
+    register_post_type("topic", $args);
+}
+add_action('init', 'register_topic_post_type');
+
+
 if(function_exists("register_field_group"))
 {
 	register_field_group(array (

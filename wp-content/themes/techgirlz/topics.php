@@ -29,7 +29,15 @@ Template Name: Workshop Topics
   They make it easy for anyone, anywhere to run a hands-on workshop for
   middle school girls. As a result of this program, the number of girls we've
   reached has more than tripled - and with your help, we can make that number
-  grow. Below is a comprehensive list of all the topics you can teach.</p>
+  grow.</p>
+
+  <p>
+    Topics are listed in ascending order of instructor levels. If you have
+    questions about running your own TechShopz in a Box™, read the
+    <a href="/run-your-own-techshopz-in-a-box-playbook">PlayBook</a>
+    for guidance, or contact <a href="mailto:sarah@techgirlz.org">sarah@techgirlz.org</a>
+     with any issues or questions.
+  </p>
 
 <hr />
 
@@ -87,7 +95,7 @@ Begin Topics
       </div>
 
       <div class="col-md-9">
-        <h3>Blockly</h3>
+        <h3>You Can Code!</h3>
         <p>
           In this lesson, we will use
           <a target="_blank" alt="Blockly" href="https://blockly-games.appspot.com/"><b>Blockly</b></a>, a drag

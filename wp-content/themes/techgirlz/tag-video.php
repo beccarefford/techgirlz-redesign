@@ -11,7 +11,7 @@ Template Name: Video Tag Page
 <div class="page-landing" style="background-image:
 url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 	<div class="topArea">
-		<h1>Infographics</h1>
+		<h1>Videos</h1>
 	</div>
 </div>
 
@@ -23,6 +23,10 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 				</div>
 
 <div class="archive-blog-content" id="page-content">
+
+	<p align="right">
+		<a href="http://youtube.com/techgirlzorg">View all TechGirlz videos on YouTube »</a>
+	</p>
 
 	<?php $query = new WP_Query( array( 'tag' => 'video' ) ); ?>
 		<?php	$current_post=1;

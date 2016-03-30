@@ -36,8 +36,10 @@ Template Name: Workshop Topics
 <div class="spacing">&nbsp;</div>
 
 <center>
-  <h2>Workshop Difficulty Level for Instructor</h2>
+  <h3>Workshop Difficulty Level for Instructor</h3>
 </center>
+
+<div class="spacing">&nbsp;</div>
 
 <div class="row">
   <div class="col-md-4">

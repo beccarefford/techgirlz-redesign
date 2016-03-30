@@ -61,6 +61,7 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 
 <?php endwhile; ?>
 
+
 <div class="row">
 	<div class="col-md-12">
 

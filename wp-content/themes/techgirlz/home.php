@@ -35,7 +35,7 @@
   <div class="col-md-4">
   <center>
   <a href="/techshopz/"><i class="fa fa-cogs fa-5x"></i></a>
-  <h2>Upcoming Events</h2>
+  <h2><a href="/techshopz/">Upcoming Events</a></h2>
     <p>We put all types of tech in the hands of middle school girls through free, project-based workshops. Browse events and register your daughter today.</p>
   </center>
   </div>
@@ -43,7 +43,7 @@
   <div class="col-md-4">
   <center>
   <a href="/techshopz-in-a-box/"><i class="fa fa-users fa-5x"></i></a>
-  <h2>Teach A Workshop</h2>
+  <h2><a href="/techshopz-in-a-box/">Teach A Workshop</a></h2>
     <p>You have the expertise, we have the materials. Use our tried-and true workshop plans to run a TechGirlz workshop in your own town.</p>
   </center>
   </div>
@@ -51,7 +51,7 @@
   <div class="col-md-4">
   <center>
   <a href="/about/"><i class="fa fa-star fa-5x"></i></a>
-  <h2>About TechGirlz</h2>
+  <h2><a href="/about/">About TechGirlz</a></h2>
     <p>We believe it takes a village to change girls' minds about tech,
     so we're enabling communities to engage them. Learn more about our mission.</p>
   </center>

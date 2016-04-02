@@ -154,22 +154,7 @@ Sponsors & Partners Section
 
 <div class="spacing">&nbsp;</div>
 
-<div id="scroll-container-tib">
-  <div class="scroll">
-    <a href="http://chariotsolutions.com"><img class="first" src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" /></a>
-    <a href="http://vitalyst.com"><img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" /></a>
-    <a href="http://comptia.org"><img src="/wp-content/uploads/2016/01/800px-Comptia-logo.svg_.png" alt="Comptia" /></a>
-    <a href="http://philadelphiapact.com/"><img src="/wp-content/uploads/2016/01/2012logo_pact.png" alt="PACT" /></a>
-    <a href="http://girldevelopit.com/"><img src="/wp-content/uploads/2016/01/pink-logo-f9a26fcc82c561f925403822c5135a28.png" alt="Girl Develop It" /></a>
-    <a href="http://chariotsolutions.com"><img src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" /></a>
-    <a href="http://vitalyst.com"><img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" /></a>
-    <a href="http://comptia.org"><img src="/wp-content/uploads/2016/01/800px-Comptia-logo.svg_.png" alt="Comptia" /></a>
-    <a href="http://philadelphiapact.com/"><img src="/wp-content/uploads/2016/01/2012logo_pact.png" alt="PACT" /></a>
-    <a href="http://girldevelopit.com/"><img src="/wp-content/uploads/2016/01/pink-logo-f9a26fcc82c561f925403822c5135a28.png" alt="Girl Develop It" /></a>
-    <a href="http://chariotsolutions.com"><img src="/wp-content/uploads/2016/01/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1.jpg" alt="Chariot Solutions" /></a>
-    <a href="http://vitalyst.com"><img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" /></a>
-  </div>
-</div>
+<?php echo do_shortcode('[ihrss-gallery type="GROUP1" w="600" h="170" speed="1" bgcolor="#FFFFFF" gap="5" random="YES"]'); ?>
 
 <div class="spacing">&nbsp;</div>
 

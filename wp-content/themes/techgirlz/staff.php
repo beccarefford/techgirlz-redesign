@@ -48,8 +48,8 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
       <p>
         TechGirlz is a 501(c)3 nonprofit dedicated to reducing the gender gap
         in technology occupations. We develop fun
-        and educational hands-on workshops, called <a href="/techshopz-in-a-box">TechShopz</a>,
-        and an annual <a href="/summer-camp-2016">Entrepreneur Summer Camp.</a> These efforts aim to get
+        and educational hands-on workshops, called <a href="/techshopz">TechShopz</a>,
+        and an annual <a href="/entrepreneur-summer-camp-2016/">Entrepreneur Summer Camp.</a> These efforts aim to get
         middle-school age girls interested in different kinds of technology and
         demonstrate the varied options of careers available. We enable them to
         interact with professionals who have carved out successful careers in

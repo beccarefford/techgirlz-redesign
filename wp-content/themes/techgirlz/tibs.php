@@ -188,7 +188,7 @@ Template Name: TechShopz In A Box
 
 <div class="spacing">&nbsp;</div>
 
-<?php echo do_shortcode('[ihrss-gallery type="GROUP2" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
+<?php echo do_shortcode('[ihrss-gallery type="GROUP1" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
 
 <div class="spacing">&nbsp;</div>
 

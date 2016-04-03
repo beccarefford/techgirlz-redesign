@@ -52,19 +52,14 @@ Home Page Elements
 .home-landing h1 {
 	font-size: 55px;
 	font-weight: 600;
-	line-height: 1.22;
 	letter-spacing: 0;
 	/* padding: 13% 0 0 11%; */
 	font-family: Montserrat;
 	display: block;
 	color: #ffffff;
-	box-sizing: border-box;
-	position: relative;
-	float:left;
-	width: 100%;
-	padding-top: 8%;
-	padding-left: 8%;
-	padding-right: 20%;
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 12%;
 }
 
 .columnDonateTime {
@@ -1555,17 +1550,15 @@ a:active {
 	color: rgba(255,255,255);
 	text-transform: uppercase;
 	line-height: 1;
-	font-size: 12px;
-	font-weight: bold;
+	font-size: 11px;
 	z-index:999;
 }
 
 .main-navigation a {
 	color: #e06287;
 	text-decoration: none;
-	font-weight: bold;
 	font-family: 'Open Sans';
-	font-size: 13px;
+	font-size: 11px;
 	text-transform: uppercase;
 	height: 90px;
 	padding: 20px 0 20px 0;

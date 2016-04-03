@@ -42,8 +42,10 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 <div class="staff-page-content" id="page-content">
   <div class="row">
     <div class="col-md-6">
-      <iframe width="560" height="390" src="https://www.youtube.com/embed/So4WB4IbE-s"
+      <center>
+        <iframe width="560" height="390" src="https://www.youtube.com/embed/So4WB4IbE-s"
       frameborder="0" alt="TechGirlz Mission Video" allowfullscreen></iframe>
+      </center>
     </div>
     <div class="col-md-6">
       <h2>Our Mission</h2>
@@ -57,9 +59,9 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
         interact with professionals who have carved out successful careers in
         technology fields, and empower them to be future technology leaders.</a>
       </p>
-
+<center>
+<br />
       <p>
-        <center>
           <a href="http://twitter.com/techgirlzorg"><i class="fa fa-twitter fa-2x"></i></a>
           <a href="http://facebook.com/techgirlzorg"><i class="fa fa-facebook fa-2x"></i></a>
           <a href="mailto:info@techgirlz.org"><i class="fa fa-envelope fa-2x"></i></a>
@@ -107,7 +109,7 @@ $current_post = $loop_staff->current_post + 1;
         <div class="row">
           <!-- Image for speaker -->
           <center>
-            <div class="col-md-4">
+            <div class="col-md-4 col-xs-12">
             <a href="<?php the_permalink(); ?>">
               <div class="staff-circle-small">
                 <?php echo get_the_post_thumbnail($post->ID, 'medium'); ?>
@@ -116,7 +118,7 @@ $current_post = $loop_staff->current_post + 1;
                   </center>
 
           <!-- Descriptive content for speaker -->
-          <div class="col-md-8">
+          <div class="col-md-8 col-xs-12">
             <a href="<?php the_permalink() ?>">
               <div id="staff-name">
                 <h3><?php the_title(); ?></h3></a>
@@ -125,8 +127,7 @@ $current_post = $loop_staff->current_post + 1;
             <?php
             $excerpt = get_the_excerpt();
             $permalink = get_permalink(); ?>
-              <p><?php echo wpse_custom_excerpts($excerpt, 40, $permalink); ?><a href="<?php the_permalink(); ?>">
-                <br /><big><big>»</big></big></a></p>
+              <p><?php echo wpse_custom_excerpts($excerpt, 40, $permalink); ?><a href="<?php the_permalink(); ?>"> Read More »</a></p>
             <!-- End of col-10 -->
            </div>
           <!-- End of inner row -->

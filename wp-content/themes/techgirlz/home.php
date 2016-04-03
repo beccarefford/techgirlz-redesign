@@ -3,11 +3,7 @@
   <div class="home-landing" style="background-image:
     url('/wp-content/uploads/2016/03/TechGirlzHomepage-min.jpg')">
     <div class="topArea">
-      <div class="row">
-        <div class="col-md-12">
           <h1>Empowering girls to be future technology leaders.</h1>
-        </div>
-      </div>
     </div>
   </div>
 </a>

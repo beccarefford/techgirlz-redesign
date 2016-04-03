@@ -21,6 +21,9 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<h1><?php the_title(); ?></h1>
+		<p>
+			<em><?php $pfx_date = get_the_date( $format, $post_id ); echo $pfx_date; ?></em>
+		</p>
 		<br />
 		<p><?php echo the_content(); ?></p>
 

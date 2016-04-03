@@ -53,9 +53,6 @@
       </div>
     </div>
 
-<div class="spacing">&nbsp;</div>
-<div class="spacing">&nbsp;</div>
-
     <p>
       <a href="/about">« Back to About Page</a>
     </p>

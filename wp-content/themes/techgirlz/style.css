@@ -695,17 +695,27 @@ Staff Page Content
 	align: center;
 }
 
-.staff-circle img {
+.topArea .staff-circle img {
 	width: 200px;
 	height: 200px;
+	line-height: 240px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;
 	-ms-border-radius: 150px;
 	-o-border-radius: 150px;
 	border-radius: 150%;
 	border: 9px solid #e06287;
-	margin: 55px 40% 0 40%;
-	z-index: -1;
+	position:absolute;
+	left: 50%;
+	top:  40%;
+	/*
+			if, for instance, the image is 64x64 pixels,
+			then "move" it half its width/height to the
+			top/left by using negative margins
+	*/
+	margin-left: -100px;
+	margin-top:  -100px;
+	z-index: 1;
 }
 
 .staff-circle-small img {

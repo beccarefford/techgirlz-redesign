@@ -8,9 +8,7 @@ Template Name: TechShopz In A Box
 
 <center>
   <div class="page-content" id="page-content">
-    <div class="spacing">
-      &nbsp;
-    </div>
+
     <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png" class="ri" />
   </div>
 </center>

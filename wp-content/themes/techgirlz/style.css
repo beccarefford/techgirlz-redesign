@@ -348,7 +348,7 @@ Pages
 	text-decoration: none;
 }
 
-.page-landing img {
+/* .page-landing img {
 	padding: 20px 20px 20px 20px;
 	margin-top: 100px;
 	margin-left: auto;
@@ -356,7 +356,7 @@ Pages
   text-align: center;
   display: table-cell;
   vertical-align: middle
-}
+} */
 
 .page-landing .topArea {
 	margin-top: 90px;
@@ -1425,7 +1425,7 @@ img {
 
 .page-landing img.ri:empty
 {
-	top: 20%;
+	top: 10%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-moz-transform: translate(-50%, -50%);

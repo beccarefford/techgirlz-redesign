@@ -7,7 +7,7 @@ Template Name: TechShopz In A Box
 <?php get_header(); ?>
 
 <div class="page-landing">
-    <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png">
+    <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png" class="ri" />
 </div>
 
 <div class="row">

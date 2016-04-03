@@ -126,35 +126,6 @@ function Ihrss_install()
 		$sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_4.jpg', '#', '_blank', 'Image 4', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
 		$wpdb->query($sSql);
 
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_5.jpg', '#', '_blank', 'Image 5', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_6.jpg', '#', '_blank', 'Image 6', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_7.jpg', '#', '_blank', 'Image 7', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_8.jpg', '#', '_blank', 'Image 8', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_9.jpg', '#', '_blank', 'Image 9', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_10.jpg', '#', '_blank', 'Image 10', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_11.jpg', '#', '_blank', 'Image 11', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_12.jpg', '#', '_blank', 'Image 12', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_13.jpg', '#', '_blank', 'Image 13', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
-
-    $sSql = $IsSql . " VALUES ('".get_option('siteurl')."/wp-content/plugins/image-horizontal-reel-scroll-slideshow/images/Sing_14.jpg', '#', '_blank', 'Image 14', '2', 'YES', 'Widget', '0000-00-00 00:00:00');";
-    $wpdb->query($sSql);
 	}
 	add_option('Ihrss_title', "Horizontal Slideshow");
 	add_option('Ihrss_sliderwidth', "400");

@@ -1993,12 +1993,11 @@ Media Queries
 	.page-landing h1 {
 		font-family: Montserrat;
 		color: #ffffff;
-		font-size: 30px;
+		font-size: 25px;
 		font-weight: bold;
 		text-transform: uppercase;
 		text-align: center;
 		vertical-align: middle;
-		line-height: 240px;
 	}
 
 	#page-content .quote h1 {
@@ -2021,7 +2020,7 @@ Media Queries
 	.page-landing h1 {
 		font-family: Montserrat;
 		color: #ffffff;
-		font-size: 35px;
+		font-size: 20px;
 		font-weight: bold;
 		text-transform: uppercase;
 		text-align: center;

@@ -49,6 +49,7 @@ Template Name: TechShopz In A Box
   <div class="blogroll">
     <center><h1>TechShopz in a Box™ Include:</h1></center>
   </div>
+</div>
 
 <div class="page-content" id="page-content">
   <div class="row">
@@ -180,6 +181,7 @@ Template Name: TechShopz In A Box
   <div class="revolution">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
+</div>
 
 <div class="spacing">&nbsp;</div>
 

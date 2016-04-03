@@ -135,6 +135,10 @@ if (typeof jQuery === 'undefined') {
       removeElement()
   }
 
+  $(window).on('resize', function () {
+  if (window.innerWidth > tabletSize) $('.bs-navbar-collapse').collapse('hide')
+})
+
 
   // ALERT PLUGIN DEFINITION
   // =======================

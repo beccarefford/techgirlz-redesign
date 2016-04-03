@@ -180,7 +180,7 @@ Template Name: TechShopz In A Box
 </div>
 </div>
 
-<div class="banner">
+<?php /* <div class="banner">
   <div class="revolution">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
@@ -190,6 +190,6 @@ Template Name: TechShopz In A Box
 
 <?php echo do_shortcode('[ihrss-gallery type="GROUP1" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
 
-<div class="spacing">&nbsp;</div>
+<div class="spacing">&nbsp;</div> */ ?>
 
 <?php get_footer(); ?>

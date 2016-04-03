@@ -147,6 +147,7 @@ Sponsors & Partners Section
 ?>
 </div>
 
+<?php /*
   <div class="banner">
     <div class="revolution">
       <center><h1>Sponsors & Partners</h1></center>
@@ -154,10 +155,10 @@ Sponsors & Partners Section
 
 <div class="spacing">&nbsp;</div>
 
-<?php /* <center>
+<center>
 <?php echo do_shortcode('[ihrss-gallery type="GROUP1" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
-</center> */ ?>
+</center>
 
-<div class="spacing">&nbsp;</div>
+<div class="spacing">&nbsp;</div> */ ?>
 
 <?php get_footer(); ?>

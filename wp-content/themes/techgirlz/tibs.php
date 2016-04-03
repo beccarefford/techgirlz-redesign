@@ -180,7 +180,6 @@ Template Name: TechShopz In A Box
   <div class="revolution">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
-</div>
 
 <div class="spacing">&nbsp;</div>
 

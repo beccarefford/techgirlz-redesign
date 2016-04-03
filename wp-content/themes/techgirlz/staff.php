@@ -154,7 +154,9 @@ Sponsors & Partners Section
 
 <div class="spacing">&nbsp;</div>
 
+<center>
 <?php echo do_shortcode('[ihrss-gallery type="GROUP1" w="1500" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
+</center>
 
 <div class="spacing">&nbsp;</div>
 

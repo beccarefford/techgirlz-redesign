@@ -183,27 +183,9 @@ Template Name: TechShopz In A Box
 
 <div class="spacing">&nbsp;</div>
 
-<div id="scroll-container-tib">
-  <div class="scroll">
-    <a href="http://bucks.edu"><img class="first" src="/wp-content/uploads/2016/01/bucks-logo.png" alt="Bucks County Community College" /></a>
-    <a href="http://vitalyst.com"><img src="/wp-content/uploads/2016/01/logo-500x300.jpg" alt="Vitalyst" /></a>
-    <a href="http://chop.edu"><img src="/wp-content/uploads/2016/01/CHOP-logo.gif" alt="Children's Hospital of Philadelphia" /></a>
-    <a href="http://drexel.edu"><img src="/wp-content/uploads/2016/01/drexel-horz-blue-300x79.png" alt="Drexel University" /></a>
-    <a href="http://baldwinschool.org"><img src="/wp-content/uploads/2016/01/fs_478baldwinSchool_logo.jpg" alt="The Baldwin School" /></a>
-    <a href="http://shoprunner.com"><img src="/wp-content/uploads/2016/01/images.png" alt="ShopRunner" /></a>
-    <a href="http://harvardwics.com"><img src="/wp-content/uploads/2016/01/logo-300x186.png" alt="Harvard Women in Computer Science" /></a>
-    <a href="http://jenkinslaw.org"><img src="/wp-content/uploads/2016/01/logo-full.gif" alt="Jenkins Law Library" /></a>
-    <a href="http://drexelieee.org"><img src="/wp-content/uploads/2016/01/Logo-PNG-300x277.png" alt="Drexel IEEE" /></a>
-    <a href="http://wharton.upenn.edu"><img src="/wp-content/uploads/2016/01/LT_REDBLUE.jpg" alt="The Wharton School" /></a>
-    <a href="http://merion-mercy.com"><img src="/wp-content/uploads/2016/01/MMA_SignLogo-copy.jpg" alt="Merion Mercy Academy" /></a>
-    <a href="http://monetate.com"><img src="/wp-content/uploads/2016/01/monetate_logo-300x67.jpg" alt="Monetate" /></a>
-    <a href="http://nycda.com"><img src="/wp-content/uploads/2016/01/new-york-code-and-design-logo-1-300x300.gif" alt="New York Code & Design Academy" /></a>
-    <a href="http://sap.com"><img src="/wp-content/uploads/2016/01/SAP-logo-650x332.png" alt="SAP" /></a>
-    <a href="http://societyofwomenengineers.swe.org"><img src="/wp-content/uploads/2016/01/SWE_TAG_RGB-300x94.gif" alt="Society of Women Engineers" /></a>
-    <a href="http://bandwidth.com"><img src="/wp-content/uploads/2016/01/techgirlz-logo-2.png" alt="Bandwidth" /></a>
-    <a href="http://xfinity.com"><img src="/wp-content/uploads/2016/01/temp_comcast-300x150.jpg" alt="Comcast" /></a>
-  </div>
-</div>
+<center>
+<?php echo do_shortcode('[ihrss-gallery type="GROUP2" w="1500" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
+</center>
 
 <div class="spacing">&nbsp;</div>
 

@@ -198,7 +198,7 @@ Home Page Elements
 	padding-right: 10%;
 }
 
-#home-cta h2 {
+#home-cta h2 a {
 	font-size: 20px;
 	line-height: 1.22;
 	letter-spacing: 0;
@@ -207,6 +207,7 @@ Home Page Elements
 	text-transform: uppercase;
 	color: #000;
 	padding-bottom: 25px;
+	text-decoration: none;
 }
 
 .banner .blogroll {

@@ -67,14 +67,14 @@
         <center>
           <a href="/techshopz-in-a-box/">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.13-PM.png"></a>
-          <h2>Teach</h2>
+          <h2><a href="/techshopz-in-a-box">Teach</a></h2>
         </center>
         </div>
 
         <div class="col-md-4">
         <center><a href="/volunteer">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.24-PM.png"></a>
-          <h2>Volunteer</h2>
+          <h2><a href="/volunteer">Volunteer</a></h2>
         </center>
         </div>
 
@@ -82,7 +82,7 @@
         <center>
           <a href="/donate">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.35-PM.png"></a>
-          <h2>Donate</h2>
+          <h2><a href="/donate">Donate</a></h2>
         </center>
         </div>
       </div>

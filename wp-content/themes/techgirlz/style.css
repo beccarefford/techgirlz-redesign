@@ -1968,7 +1968,7 @@ object {
 
 .navbar-collapse.in {
     overflow-y: visible!important;
-		width: 600px!important;
+		width: 100%!important;
 }
 
 ul.dropdown-menu {

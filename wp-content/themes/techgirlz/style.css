@@ -60,7 +60,9 @@ Home Page Elements
 	color: #ffffff;
 	text-align: center;
 	vertical-align: middle;
-	padding-top: 12%;
+	padding-top: 11%;
+	padding-left: 8%;
+	padding-right: 8%;
 }
 
 .columnDonateTime {

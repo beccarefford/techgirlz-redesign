@@ -6,9 +6,11 @@ Template Name: Workshop Topics
 
 <?php get_header(); ?>
 
-<div class="page-landing">
-    <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png">
-</div>
+<center>
+  <div class="page-content" id="page-content">
+    <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png" class="ri" />
+  </div>
+</center>
 
 <div class="row">
   <div class="col-md-6 nopadding">

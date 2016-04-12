@@ -89,7 +89,7 @@ Begin Topics
     $loop_topic = new WP_Query(array(
     'post_type' => 'topic',
     'posts_per_page' => -1,
-    'orderby' => 'menu_order',
+    'orderby' => 'date',
     'order' => 'DESC'
     ));
     ?>

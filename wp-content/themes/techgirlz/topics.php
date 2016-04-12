@@ -90,7 +90,7 @@ Begin Topics
     'post_type' => 'topic',
     'posts_per_page' => -1,
     'orderby' => 'date',
-    'order' => 'DESC'
+    'order' => 'ASC'
     ));
     ?>
 

@@ -46,7 +46,7 @@ url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
   <div class="col-md-6">
     <h2>Looking for workshops in North Carolina?</h2>
     <p>
-      <a href="/raleigh-durham-techgirlz-group/">The Raleigh-Durham TechGirlz Group</a> is an entire TechGirlz community in North Carolina.
+      <a href="/raleigh-durham-techgirlz-group/">Triangle TechGirlz</a> is an entire TechGirlz community in North Carolina.
       Check out their page for events, or <a href="http://techgirlz.us10.list-manage.com/subscribe?u=abcebd5b4b7aec29f1589129f&id=b2553e542c">sign
 				up for their mailing list</a> to hear about events first.
     </p>

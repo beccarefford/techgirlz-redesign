@@ -13,7 +13,7 @@ get_header(); ?>
 				<div class="page-landing" style="background-image:
 				url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 					<div class="topArea">
-						<h1>YOUR SEARCH "<?php the_search_query(); ?>"</h1>
+						<h1>Results for: "<?php the_search_query(); ?>"</h1>
 					</div>
 				</div>
 

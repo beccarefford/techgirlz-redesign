@@ -9,7 +9,7 @@
 </a>
 
 <div class="row">
-  <a href="/volunteer">
+  <a href="/volunteer-with-techgirlz/">
     <div class="col-md-6 nopadding">
         <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
           <h1>Donate Time &nbsp; <i class="fa fa-clock-o"></i></h1>

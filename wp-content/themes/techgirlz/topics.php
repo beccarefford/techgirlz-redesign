@@ -13,13 +13,21 @@ Template Name: Workshop Topics
 </center>
 
 <div class="row">
-  <div class="col-md-6 nopadding">
-      <div class="columnPageDeco"></div>
-  </div>
+  <a href="/techshopzinfo">
+    <div class="col-md-6 nopadding">
+        <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
+          <h1>Browse Topics &nbsp; <i class="fa fa-book"></i></h1>
+        </div>
+    </div>
+  </a>
 
-  <div class="col-md-6 nopadding">
-    <div class="columnPageDeco2"></div>
-  </div>
+  <a target="_blank" href="http://webforms.zenginehq.com/d783814e989d11d4fac077f7ec55894ddf91bf55d95b689784">
+    <div class="col-md-6 nopadding">
+      <div class="columnDonateMoney" onmouseover="this.style.background='#D97044';" onmouseout="this.style.background='#F9976D';">
+        <h1>Get Started &nbsp; <i class="fa fa-flag-checkered"></i></h1>
+      </div>
+    </div>
+  </a>
 </div>
 
 <div class="page-content" id="page-content">

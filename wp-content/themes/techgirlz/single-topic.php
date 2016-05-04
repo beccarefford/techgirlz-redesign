@@ -2,12 +2,11 @@
 
       <?php while ( have_posts() ) : the_post(); ?>
 
-    <div class="page-landing" style="background-image:
-    url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
-      <div class="topArea">
-        <h1><?php the_title(); ?></h1>
-      </div>
-    </div>
+        <center>
+          <div class="page-content" id="page-content">
+            <img src="/wp-content/uploads/2016/01/LogoTechShopz@2x.png" class="ri" />
+          </div>
+        </center>
 
       <div class="row">
         <div class="col-md-6 nopadding">
@@ -20,6 +19,7 @@
       </div>
 
     <div class="page-content" id="page-content">
+      <h2><?php echo the_title(); ?></h2>
         <p><?php echo the_content(); ?></p>
 
         <br />

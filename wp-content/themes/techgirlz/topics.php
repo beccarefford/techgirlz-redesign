@@ -109,10 +109,9 @@ $current_post = $loop_topic->current_post + 1;
    <div class="row">
     <?php endif; ?>
 
-    <!-- Speaker Box Column -->
       <div class="col-md-6 col-xs-12">
 
-        <h3><?php echo the_title(); ?></h3>
+        <h3><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h3>
         <p><?php echo the_content(); ?></p>
 
       </div>

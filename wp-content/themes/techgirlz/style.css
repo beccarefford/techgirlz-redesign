@@ -417,6 +417,14 @@ Pages
 	font-weight: 700;
 }
 
+#page-content h3 a {
+	font-family: Montserrat;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: 700;
+	color: #000000;
+}
+
 #page-content p {
 	font-size: 17.5px;
 	font-family: Open Sans;

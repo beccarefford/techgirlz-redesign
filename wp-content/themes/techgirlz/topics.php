@@ -123,7 +123,7 @@ $current_post = $loop_topic->current_post + 1;
         <?php
         $excerpt = get_the_excerpt();
         $permalink = get_permalink(); ?>
-          <p><?php echo wpse_custom_excerpts($excerpt, 30, $permalink); ?></p>
+          <p><?php echo wpse_custom_excerpts($excerpt, 30, $permalink); ?><a href="<?php the_permalink(); ?>"> »</a></p>
 
       </div>
 

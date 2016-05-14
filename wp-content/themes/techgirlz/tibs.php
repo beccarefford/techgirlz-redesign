@@ -92,7 +92,7 @@ Template Name: TechShopz In A Box
 
 <div class="banner">
   <div class="revolution">
-    <center><h1>Browse our Lesson Plan Library</h1></center>
+    <center><h1>Browse our Workshop Plan Library</h1></center>
   </div>
 </div>
 

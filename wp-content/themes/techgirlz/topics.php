@@ -132,7 +132,6 @@ $current_post = $loop_topic->current_post + 1;
           </p>
         <?php } ?>
 
-
           <?php
         $excerpt = get_the_excerpt();
         $permalink = get_permalink(); ?>

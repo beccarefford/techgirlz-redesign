@@ -162,4 +162,49 @@ if(function_exists("register_field_group"))
 	));
 }
 
+if(function_exists("register_field_group"))
+{
+	register_field_group(array (
+		'id' => 'acf_topic-flags',
+		'title' => 'Topic Flags',
+		'fields' => array (
+			array (
+				'key' => 'field_573744cd784fe',
+				'label' => 'New',
+				'name' => 'new',
+				'type' => 'true_false',
+				'message' => '',
+				'default_value' => 0,
+			),
+			array (
+				'key' => 'field_573744e6784ff',
+				'label' => 'Updated',
+				'name' => 'updated',
+				'type' => 'true_false',
+				'message' => '',
+				'default_value' => 0,
+			),
+		),
+		'location' => array (
+			array (
+				array (
+					'param' => 'post_type',
+					'operator' => '==',
+					'value' => 'topic',
+					'order_no' => 0,
+					'group_no' => 0,
+				),
+			),
+		),
+		'options' => array (
+			'position' => 'normal',
+			'layout' => 'no_box',
+			'hide_on_screen' => array (
+			),
+		),
+		'menu_order' => 0,
+	));
+}
+
+
 ?>

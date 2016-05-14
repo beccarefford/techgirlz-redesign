@@ -120,7 +120,20 @@ $current_post = $loop_topic->current_post + 1;
       <div class="col-md-6 col-xs-12">
 
         <h3><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h3>
-        <?php
+        <?php if (get_field('new')) { ?>
+          <p>
+            <font color="red"><strong><em>New!</em></strong></font>
+          </p>
+        <?php } ?>
+
+        <?php if (get_field('updated')) { ?>
+          <p>
+            <strong><em>Updated!</em></strong>
+          </p>
+        <?php } ?>
+
+
+          <?php
         $excerpt = get_the_excerpt();
         $permalink = get_permalink(); ?>
           <p><?php echo wpse_custom_excerpts($excerpt, 30, $permalink); ?><a href="<?php the_permalink(); ?>"> »</a></p>

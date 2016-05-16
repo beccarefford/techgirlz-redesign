@@ -13,10 +13,10 @@ Template Name: Workshop Topics
 </center>
 
 <div class="row">
-  <a href="/techshopzinfo">
+  <a href="/playbook">
     <div class="col-md-6 nopadding">
         <div class="columnDonateTime" onmouseover="this.style.background='#C43D64';" onmouseout="this.style.background='#e06287';">
-          <h1>Browse Topics &nbsp; <i class="fa fa-book"></i></h1>
+          <h1>Plan a Workshop &nbsp; <i class="fa fa-book"></i></h1>
         </div>
     </div>
   </a>
@@ -122,13 +122,13 @@ $current_post = $loop_topic->current_post + 1;
         <h3><a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a></h3>
         <?php if (get_field('new')) { ?>
           <p>
-            <font color="red"><strong><em>New!</em></strong></font>
+            <font color="#e06287"><strong>New!</strong></font>
           </p>
         <?php } ?>
 
         <?php if (get_field('updated')) { ?>
           <p>
-            <strong><em>Updated!</em></strong>
+            <font color="#4AA983"><strong>Updated!</strong></font>
           </p>
         <?php } ?>
 

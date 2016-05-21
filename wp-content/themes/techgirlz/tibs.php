@@ -179,16 +179,59 @@ Template Name: TechShopz In A Box
 </div>
 </div>
 
-<?php /* <div class="banner">
+<div class="banner">
   <div class="revolution">
     <center><h1>TechShopz in a Box™ Users</h1></center>
   </div>
 </div>
 
 <div class="spacing">&nbsp;</div>
+<div class="row">
+  <div class="col-md-2">
+    <center>
+    <a href="http://www.ibm.com">
+      <img style="height:60px" src="http://www.techgirlz.org/wp-content/uploads/2016/04/ibm_logo.gif"></a>
+    </center>
+  </div>
 
-<?php echo do_shortcode('[ihrss-gallery type="GROUP1" h="70" speed="1" bgcolor="#FFFFFF" gap="70" random="YES"]'); ?>
+  <div class="col-md-2">
+    <center>
+    <a href="http://www.oracle.com">
+      <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/m348_oracle.png"></a>
+    </center>
+  </div>
 
-<div class="spacing">&nbsp;</div> */ ?>
+  <div class="col-md-2">
+    <center>
+    <a href="http://www.citrix.com">
+      <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/citrix-logo1.png">
+    </a>
+    </center>
+  </div>
+
+  <div class="col-md-2">
+    <center>
+    <a href="http://www.spoonflower">
+      <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/logo.png">
+    </a>
+    </center>
+  </div>
+
+  <div class="col-md-2">
+    <center>
+      <a href="http://www.sap.com">
+      <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/News_SAP_support2.png"></a>
+    </center>
+  </div>
+
+  <div class="col-md-2">
+    <center>
+      <a href="http://www.chop.edu">
+      <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/childrens-hospital-logo.png"></a>
+    </center>
+  </div>
+</div>
+
+<div class="spacing">&nbsp;</div>
 
 <?php get_footer(); ?>

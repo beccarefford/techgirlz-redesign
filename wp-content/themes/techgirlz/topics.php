@@ -63,7 +63,7 @@ Template Name: Workshop Topics
   <div class="col-md-4">
     <div id="rating">
       <i class="fa fa-star fa-3x"></i>
-      <p>Easy</p>
+      <p>Basic</p>
     </div>
   </div>
 
@@ -77,7 +77,7 @@ Template Name: Workshop Topics
   <div class="col-md-4">
     <div id="rating">
       <i class="fa fa-star fa-3x"></i><i class="fa fa-star fa-3x"></i><i class="fa fa-star fa-3x"></i>
-      <p>Challenging</p>
+      <p>Advanced</p>
     </div>
   </div>
 </div>

@@ -5,7 +5,7 @@
 		<div class="bg" style="background-image:
 		url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
 		</div>
-		<h1>If you were looking for nothing, you've found it!</h1>
+		<h1>Sorry! That page doesn't exist.</h1>
 	</div>
 </div>
 

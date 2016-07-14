@@ -158,7 +158,6 @@ Sponsors & Partners Section
 <div class="spacing">&nbsp;</div>
 
 <div class="row">
-
   <div class="col-md-3">
     <center>
     <a target="_blank" href="http://www.speakwithageek.com">

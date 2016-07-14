@@ -158,21 +158,29 @@ Sponsors & Partners Section
 <div class="spacing">&nbsp;</div>
 
 <div class="row">
-  <div class="col-md-4">
+
+  <div class="col-md-3">
+    <center>
+    <a target="_blank" href="http://www.speakwithageek.com">
+      <img src="http://www.techgirlz.org/wp-content/uploads/2016/07/SpeakWithAGeek.jpg"></a>
+    </center>
+  </div>
+
+  <div class="col-md-3">
     <center>
     <a target="_blank" href="http://www.chariotsolutions.com">
       <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/59fc6d9e-cb95-11e0-816a-5fcb627c2ae5-1-1.jpg"></a>
     </center>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-3">
     <center>
     <a target="_blank" href="http://www.comptia.org">
       <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/800px-Comptia-logo.svg_.png"></a>
     </center>
   </div>
 
-  <div class="col-md-4">
+  <div class="col-md-3">
     <center>
     <a target="_blank" href="http://philadelphiapact.com/">
       <img src="http://www.techgirlz.org/wp-content/uploads/2016/04/2012logo_pact.png"></a>

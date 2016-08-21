@@ -140,9 +140,12 @@
       </div>
 
       <center>
-        <a href="/topics"><div class="btn">Browse more of our TechShopz</div></a>
-      </center>
+        <div class="spacing">
+          &nbsp;
         </div>
+        <a href="/topics"><div class="myButton">Browse more of our TechShopz</div></a>
+      </center>
+      </div>
       </center>
     </div>
   </div>

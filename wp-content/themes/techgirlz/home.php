@@ -41,7 +41,7 @@
   <center>
   <a href="/techshopz-in-a-box/"><i class="fa fa-users fa-5x"></i></a>
   <h2><a href="/techshopz-in-a-box/">Why Do We Exist</a></h2>
-    <p>There's more to tech careers than just coding. We're here to show middle school girls just that. They are still interested in tech at this age, but there are many obstacles in their path that keep them from pursuing careers in tech. We show them that technology can match their interests and be fun and rewarding.</p>
+    <p>There's more to tech careers than just coding. We're here to show middle school girls just that. Through our free hands-on TechShopz, we show them that technology can match their interests and be fun and rewarding.</p>
   </center>
   </div>
 
@@ -92,7 +92,7 @@
 
     <div class="banner">
       <div class="revolution">
-        <center><h1>Browse our Workshop Plan Library</h1></center>
+        <center><h1>Girls can do more than code.</h1></center>
       </div>
     </div>
 
@@ -138,6 +138,12 @@
         </a>
         <p>Cybersecurity</p></center>
       </div>
+
+      <center>
+        <a href="/topics"><div class="btn">Browse more of our TechShopz</div></a>
+      </center>
+        </div>
+      </center>
     </div>
   </div>
 </div>

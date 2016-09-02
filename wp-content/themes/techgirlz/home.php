@@ -99,13 +99,9 @@
     </div>
 
     <div class="page-content" id="page-content">
-      <p><center>
-        We offer free workshop plans covering tons of tech topics.
-      </center>
-      </p>
     <div class="topics">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-3">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -115,7 +111,7 @@
         <p>Circuits and Hardware</p></center>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-md-3">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -125,7 +121,7 @@
         <p>Media & Production</p></center>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-md-3">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -135,7 +131,7 @@
         <p>Fashion Technology</p></center>
       </div>
 
-      <div class="col-md-2">
+      <div class="col-md-3">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -145,28 +141,16 @@
         <p>Cybersecurity</p></center>
       </div>
 
-      <div class="col-md-2">
-        <a href="/techshopzinfo">
-          <center>
-          <div class="anywhere-circle">
-            <img alt="Game Design TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.08.39-AM.png">
-          </div>
-        </a>
-        <p>Game Design & Development</p></center>
+      <center>
+        <div class="spacing">
+          &nbsp;
+        </div>
+        <a href="/topics"><div class="myButton">Browse more of our TechShopz</div></a>
+      </center>
       </div>
-
-      <div class="col-md-2">
-        <a href="/techshopzinfo">
-          <center>
-          <a href="/topics/"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
-        </a>
-        <p>Browse More Topics</p></center>
-      </div>
+      </center>
     </div>
-  </div>
-</div>
 
-<div id="home-blogroll">
   <div class="wrapper">
   		<?php
   		$wp_query = new WP_Query(array(

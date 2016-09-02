@@ -150,7 +150,9 @@
       </div>
       </center>
     </div>
+  </div>
 
+<div id="home-blogroll">
   <div class="wrapper">
   		<?php
   		$wp_query = new WP_Query(array(
@@ -166,7 +168,7 @@
     <div class="row">
       <div class="col-md-4">
         <hr />
-        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
       </div>
 
       <div class="col-md-8">

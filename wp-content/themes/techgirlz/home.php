@@ -154,7 +154,6 @@
       </center>
     </div>
   </div>
-</div>
 
 <div id="home-blogroll">
   <div class="wrapper">

@@ -154,6 +154,7 @@
 
 <div id="home-blogroll">
   <div class="wrapper">
+    <h1>From the TechGirlz Blog</h1>
   		<?php
   		$wp_query = new WP_Query(array(
   			'post_type' => 'post',
@@ -163,8 +164,6 @@
   		));
 
     while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-
-    <h1>From the TechGirlz Blog</h1>
     <div class="row">
       <div class="col-md-4">
         <hr />

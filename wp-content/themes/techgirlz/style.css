@@ -232,7 +232,7 @@ Home Page Elements
 
 #home-blogroll {
 	display: block;
-	padding: 5% 0;
+	padding: 0 0 5% 0;
 }
 
 #home-blogroll .wrapper {
@@ -275,6 +275,13 @@ Home Page Elements
 	line-height: 1.7em;
 	padding-bottom: 30px;
 	padding-top: 37px;
+}
+
+#home-blogroll h3 {
+	font-family: Montserrat;
+	font-size: 22px;
+	letter-spacing: -1px;
+	font-weight: 700;
 }
 
 #home-blogroll .btn {
@@ -610,7 +617,7 @@ Archive Blog Page
 	padding: 50px;
 }
 
-.archive-blog-content .row .btn {
+.archive-content .row .btn {
 	float: right;
 	margin-top: 15px;
 }

@@ -31,33 +31,30 @@
   <div class="col-md-4">
   <center>
   <a href="/about/"><i class="fa fa-cogs fa-5x"></i></a>
-  <h2><a href="/techshopz/">What Is TechGirlz</a></h2>
+  <h2><a href="/techshopz/">What Is TechGirlz</a></h2></center>
     <p>TechGirlz is a nonprofit organization dedicated to reducing
       the gender gap in technology occupations, by focusing on girls at the
       crucial middle school age. We offer free workshops to get girls
       interested in different kinds of technology, show them
       varied career options, and connect them with professionals in technology fields.</p>
-  </center>
   </div>
 
   <div class="col-md-4">
   <center>
   <a href="/techshopz-in-a-box/"><i class="fa fa-users fa-5x"></i></a>
-  <h2><a href="/techshopz-in-a-box/">Why We Exist</a></h2>
+  <h2><a href="/techshopz-in-a-box/">Why We Exist</a></h2></center>
     <p>There's more to tech careers than just coding. We're here to show
       middle school girls just that. Through our free hands-on TechShopz,
       we show them that technology can match their interests and be fun and rewarding.</p>
-  </center>
   </div>
 
   <div class="col-md-4">
   <center>
   <a href="/about/"><i class="fa fa-star fa-5x"></i></a>
-  <h2><a href="/about/">Our Impact</a></h2>
+  <h2><a href="/about/">Our Impact</a></h2></center>
     <p>5000+ girls attended our free TechShopz
     <br />81% of girls changed their mind about a tech career after a TechShop
     <br />Hundreds of volunteers are running TechShopz globally</p>
-  </center>
   </div>
  </div>
 </div>
@@ -102,9 +99,13 @@
     </div>
 
     <div class="page-content" id="page-content">
+      <p><center>
+        We offer free workshop plans covering tons of tech topics.
+      </center>
+      </p>
     <div class="topics">
     <div class="row">
-      <div class="col-md-3">
+      <div class="col-md-2">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -114,7 +115,7 @@
         <p>Circuits and Hardware</p></center>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -124,7 +125,7 @@
         <p>Media & Production</p></center>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -134,7 +135,7 @@
         <p>Fashion Technology</p></center>
       </div>
 
-      <div class="col-md-3">
+      <div class="col-md-2">
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
@@ -144,16 +145,26 @@
         <p>Cybersecurity</p></center>
       </div>
 
-      <center>
-        <div class="spacing">
-          &nbsp;
-        </div>
-        <a href="/topics"><div class="myButton">Browse more of our TechShopz</div></a>
-      </center>
+      <div class="col-md-2">
+        <a href="/techshopzinfo">
+          <center>
+          <div class="anywhere-circle">
+            <img alt="Game Design TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.08.39-AM.png">
+          </div>
+        </a>
+        <p>Game Design & Development</p></center>
       </div>
-      </center>
+
+      <div class="col-md-2">
+        <a href="/techshopzinfo">
+          <center>
+          <a href="/topics/"><i class="fa fa-arrow-circle-right fa-5x"></i></a>
+        </a>
+        <p>Browse More Topics</p></center>
+      </div>
     </div>
   </div>
+</div>
 
 <div id="home-blogroll">
   <div class="wrapper">

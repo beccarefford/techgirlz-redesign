@@ -279,9 +279,10 @@ Home Page Elements
 
 #home-blogroll h3 {
 	font-family: Montserrat;
-	font-size: 22px;
+	font-size: 28px;
 	letter-spacing: -1px;
 	font-weight: 700;
+	color: #333333;
 }
 
 #home-blogroll .btn {

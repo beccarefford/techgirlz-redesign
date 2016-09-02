@@ -32,16 +32,21 @@
   <center>
   <a href="/about/"><i class="fa fa-cogs fa-5x"></i></a>
   <h2><a href="/techshopz/">What Is TechGirlz</a></h2>
-    <p>TechGirlz is a nonprofit organization dedicated to reducing the gender gap in technology occupations,
-    by focusing on girls at the crucial middle school age. We offer free workshops to get girls interested in different kinds of technology, show them varied career options, and connect them with professionals in technology fields.</p>
+    <p>TechGirlz is a nonprofit organization dedicated to reducing
+      the gender gap in technology occupations, by focusing on girls at the
+      crucial middle school age. We offer free workshops to get girls
+      interested in different kinds of technology, show them
+      varied career options, and connect them with professionals in technology fields.</p>
   </center>
   </div>
 
   <div class="col-md-4">
   <center>
   <a href="/techshopz-in-a-box/"><i class="fa fa-users fa-5x"></i></a>
-  <h2><a href="/techshopz-in-a-box/">Why Do We Exist</a></h2>
-    <p>There's more to tech careers than just coding. We're here to show middle school girls just that. Through our free hands-on TechShopz, we show them that technology can match their interests and be fun and rewarding.</p>
+  <h2><a href="/techshopz-in-a-box/">Why We Exist</a></h2>
+    <p>There's more to tech careers than just coding. We're here to show
+      middle school girls just that. Through our free hands-on TechShopz,
+      we show them that technology can match their interests and be fun and rewarding.</p>
   </center>
   </div>
 
@@ -103,7 +108,7 @@
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
-            <img alt="Web Development TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-15-at-1.35.09-PM.png">
+            <img alt="Circuits & Hardware TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.26.49-AM.png">
           </div>
         </a>
         <p>Circuits and Hardware</p></center>
@@ -113,7 +118,7 @@
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
-            <img alt="Game Design TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.08.39-AM.png">
+            <img alt="Media Editing TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.20.20-AM.png">
           </div>
         </a>
         <p>Media & Production</p></center>
@@ -123,7 +128,7 @@
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
-            <img alt="Mobile Apps TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-15-at-1.39.34-PM.png">
+            <img alt="Fashion Technology TechGirlz" src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-02-at-5.05.13-PM.jpg">
           </div>
         </a>
         <p>Fashion Technology</p></center>
@@ -133,7 +138,7 @@
         <a href="/techshopzinfo">
           <center>
           <div class="anywhere-circle">
-            <img alt="Media Editing TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.20.20-AM.png">
+            <img alt="Cybersecurity TechGirlz" src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-02-at-5.02.27-PM.jpg">
           </div>
         </a>
         <p>Cybersecurity</p></center>
@@ -151,15 +156,6 @@
   </div>
 </div>
 
-
-<div class="banner">
-  <div class="blogroll">
-    <center>
-      <h1>From the TechGirlz Blog</h1>
-    </center>
-  </div>
-</div>
-
 <div id="home-blogroll">
   <div class="wrapper">
   		<?php
@@ -172,10 +168,11 @@
 
     while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
 
+    <h1>From the TechGirlz Blog</h1>
     <div class="row">
       <div class="col-md-4">
         <hr />
-        <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
       </div>
 
       <div class="col-md-8">

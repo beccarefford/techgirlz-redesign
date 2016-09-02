@@ -93,13 +93,12 @@
     </div>
 
     <div class="banner">
-      <div class="revolution">
+      <div class="blogroll">
         <center><h1>Girls can do more than code.</h1></center>
       </div>
     </div>
 
     <div class="page-content" id="page-content">
-    <div class="topics">
     <div class="row">
       <div class="col-md-3">
         <a href="/techshopzinfo">
@@ -150,7 +149,6 @@
       </div>
       </center>
     </div>
-  </div>
 
 <div id="home-blogroll">
   <div class="wrapper">

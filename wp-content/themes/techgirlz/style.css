@@ -277,9 +277,10 @@ Home Page Elements
 	padding-top: 37px;
 }
 
-#home-blogroll h3 {
+#home-blogroll h3 a {
 	font-family: Montserrat;
-	font-size: 28px;
+	font-size: 23px;
+	line-height: 26px;
 	letter-spacing: -1px;
 	font-weight: 700;
 	color: #333333;

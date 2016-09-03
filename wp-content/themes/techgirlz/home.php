@@ -93,7 +93,7 @@
         <div class="col-md-3">
         <center>
           <a href="/contact-us">
-          <img src="wp-content/uploads/2016/09/Screen-Shot-2016-09-02-at-9.43.03-PM.jpg"></a>
+          <img src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-03-at-12.46.19-PM.jpg"></a>
           <h2><a href="/donate">Partner</a></h2>
         </center>
         </div>

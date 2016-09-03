@@ -246,7 +246,6 @@ Home Page Elements
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-align: left;
 }
 
 #home-blogroll h1>a {
@@ -255,7 +254,6 @@ Home Page Elements
 	font-size: 26px;
 	font-weight: bold;
 	text-transform: uppercase;
-	text-align: left;
 	line-height: 1.4em;
 }
 

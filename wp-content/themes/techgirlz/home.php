@@ -67,7 +67,7 @@
 
     <div id="home-cta">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
         <center>
           <a href="/techshopz-in-a-box/">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.13-PM.png"></a>
@@ -75,18 +75,26 @@
         </center>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
         <center><a href="/volunteer">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.24-PM.png"></a>
           <h2><a href="/volunteer">Volunteer</a></h2>
         </center>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-3">
         <center>
           <a href="/donate">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.35-PM.png"></a>
           <h2><a href="/donate">Donate</a></h2>
+        </center>
+        </div>
+
+        <div class="col-md-3">
+        <center>
+          <a href="/contact-us">
+          <img src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-02-at-8.24.57-PM.png"></a>
+          <h2><a href="/donate">Partner</a></h2>
         </center>
         </div>
       </div>

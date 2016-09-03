@@ -97,7 +97,7 @@
 
     <div class="banner">
       <div class="blogroll">
-        <center><h1>Girls can do more than code.</h1></center>
+        <center><h1>Girls can do more than code</h1></center>
       </div>
     </div>
 

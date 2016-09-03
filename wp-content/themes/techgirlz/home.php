@@ -92,7 +92,7 @@
 
         <div class="col-md-3">
         <center>
-          <a href="/contact-us">
+          <a href="/contact/">
           <img src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-03-at-12.46.19-PM.jpg"></a>
           <h2><a href="/donate">Partner</a></h2>
         </center>
@@ -163,7 +163,9 @@
 
 <div id="home-blogroll">
   <div class="wrapper">
-    <h1>From the TechGirlz Blog</h1>
+    <br />
+    <br />
+    <center><h1>From the TechGirlz Blog</h1></center>
   		<?php
   		$wp_query = new WP_Query(array(
   			'post_type' => 'post',

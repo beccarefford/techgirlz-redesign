@@ -71,7 +71,7 @@
         <center>
           <a href="/techshopz-in-a-box/">
           <img src="/wp-content/uploads/2016/03/Screen-Shot-2016-03-02-at-4.39.13-PM.png"></a>
-          <h2><a href="/techshopz-in-a-box">Teach</a></h2>
+          <h2><a href="/techshopz-in-a-box">Instruct</a></h2>
         </center>
         </div>
 
@@ -94,7 +94,7 @@
         <center>
           <a href="/contact/">
           <img src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-03-at-12.46.19-PM.jpg"></a>
-          <h2><a href="/donate">Partner</a></h2>
+          <h2><a href="/contact">Partner</a></h2>
         </center>
         </div>
       </div>
@@ -112,17 +112,17 @@
     <div class="page-content" id="page-content">
     <div class="row">
       <div class="col-md-3">
-        <a href="/techshopzinfo">
+        <a href="/topics">
           <center>
           <div class="anywhere-circle">
             <img alt="Circuits & Hardware TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.26.49-AM.png">
           </div>
         </a>
-        <p>Circuits and Hardware</p></center>
+        <p>Circuits & Hardware</p></center>
       </div>
 
       <div class="col-md-3">
-        <a href="/techshopzinfo">
+        <a href="/topics">
           <center>
           <div class="anywhere-circle">
             <img alt="Media Editing TechGirlz" src="/wp-content/uploads/2016/01/Screen-Shot-2016-01-30-at-11.20.20-AM.png">
@@ -132,7 +132,7 @@
       </div>
 
       <div class="col-md-3">
-        <a href="/techshopzinfo">
+        <a href="/topics">
           <center>
           <div class="anywhere-circle">
             <img alt="Fashion Technology TechGirlz" src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-02-at-5.05.13-PM.jpg">
@@ -142,7 +142,7 @@
       </div>
 
       <div class="col-md-3">
-        <a href="/techshopzinfo">
+        <a href="/topics">
           <center>
           <div class="anywhere-circle">
             <img alt="Cybersecurity TechGirlz" src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-02-at-5.02.27-PM.jpg">

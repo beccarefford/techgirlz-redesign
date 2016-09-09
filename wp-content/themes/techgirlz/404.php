@@ -21,7 +21,7 @@ Template Name: 404
 		the navigation bar.</p>
 <br />
 <br />
-	<h3>Still can't find what you're looking for? <a style="color:#eo6287" href="/contact">Let us know!</a></h3></center>
+	<h3>Still can't find what you're looking for? <u><a style="color:#eo6287" href="/contact">Let us know!</a></u></h3></center>
 </div>
 
 

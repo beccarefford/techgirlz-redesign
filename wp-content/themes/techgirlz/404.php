@@ -9,7 +9,7 @@ Template Name: 404
 <div class="page-landing">
 	<div class="topArea">
 		<div class="bg" style="background-image:
-		url('/wp-content/uploads/2015/12/12906601514_aeb6bcca1a_o.jpg')">
+		url('/wp-content/uploads/2016/03/12906601514_aeb6bcca1a_o.jpg')">
 		</div>
 		<h1>Sometimes things don't go as planned.</h1>
 	</div>

@@ -19,8 +19,9 @@ Template Name: 404
 		<center><p>We're sorry, the page you requested isn't available. We recommend
 		you use the site navigation at the top of the page or the search functionality in
 		the navigation bar.</p>
-
-	<h3>Still can't find what you're looking for? <a href="/contact">Let us know!</a></h3></center>
+<br />
+<br />
+	<h3>Still can't find what you're looking for? <a style="color:#eo6287" href="/contact">Let us know!</a></h3></center>
 </div>
 
 

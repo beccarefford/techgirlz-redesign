@@ -47,6 +47,8 @@ Template Name: TechShopz In A Box
 </div>
 </div>
 
+
+
 <div class="banner">
   <div class="blogroll">
     <center><h1>TechShopz in a Box™ Include:</h1></center>

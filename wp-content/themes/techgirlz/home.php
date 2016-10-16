@@ -92,7 +92,7 @@
 
         <div class="col-md-3">
         <center>
-          <a href="/contact/">
+          <a href="/2016-annual-report/">
           <img src="/wp-content/uploads/2016/10/techgirlz_2016_annual_report.jpg"></a>
           <h2><a href="/contact">Our Progress</a></h2>
         </center>

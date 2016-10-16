@@ -93,8 +93,8 @@
         <div class="col-md-3">
         <center>
           <a href="/contact/">
-          <img src="/wp-content/uploads/2016/09/Screen-Shot-2016-09-03-at-12.46.19-PM.jpg"></a>
-          <h2><a href="/contact">Partner</a></h2>
+          <img src="/wp-content/uploads/2016/10/techgirlz_2016_annual_report.jpg"></a>
+          <h2><a href="/contact">Our Progress</a></h2>
         </center>
         </div>
       </div>
